@@ -1,0 +1,4 @@
+ROUTINE test
+ Read !,"Серийный номер",sn    
+ set ^s(1)=sn 
+ w ^s(1)
