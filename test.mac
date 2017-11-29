@@ -1,4 +1,16 @@
 ROUTINE test
- Read !,"Серийный номер",sn    
- set ^s(1)=sn 
- w ^s(1)
+ Read !,"ID: ", id
+ 
+ Read !,"Серийный номер: ",sn    
+ set ^s(id,"serial")=sn 
+  Read !,"ФИО: ",fio    
+ set ^s(id,"fi")=fio 
+  Read !,"MAC: ",mac    
+ set ^s(id,"Mac")=mac 
+  Read !,"Phone Num: ",phn    
+ set ^s(id,"Phnum")=phn 
+ 
+  Read !,"Model: ",model    
+ set ^s(id,"model")=model 
+ 
+ zw ^s
