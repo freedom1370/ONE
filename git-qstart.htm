@@ -1,0 +1,844 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0041)https://webdesignchannel.ru/git-tutorial/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML class="no-js" lang="ru-RU"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+   
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+<META name="viewport" content="width=device-width, initial-scale=1.0">   <LINK 
+href="http://gmpg.org/xfn/11" rel="profile">   <LINK href="https://webdesignchannel.ru/xmlrpc.php" 
+rel="pingback"> 
+<META name="yandex-verification" content="61a3762e56148869"> 
+<META name="google-site-verification" content="_bFodszwYoq7e0UCOvQwHbLTNKuEo3Dhv_jYM9C4tH4"> 
+<META name="CatCut15eb4285fc" content="9FF6F590D0FF74C2FB68AA8A742639E1Y9457">   
+<TITLE>GIT основы - руководство для начинающих. Быстрый старт</TITLE> 
+<SCRIPT>document.documentElement.className = document.documentElement.className.replace("no-js","js");</SCRIPT>
+ <!-- All in One SEO Pack 2.4.2 by Michael Torbert of Semper Fi Web Design[575,670] --> 
+<META name="description" content="Git - Практическое руководство для начинающих. Быстрый старт по системе GIT."> 
+<META name="keywords" content="git установка,git настройка,git"> <LINK href="https://webdesignchannel.ru/git-tutorial/" 
+rel="canonical"> 
+<META content="GIT основы - руководство для начинающих. Быстрый старт" property="og:title"> 
+<META content="article" property="og:type"> 
+<META content="https://webdesignchannel.ru/git-tutorial/" property="og:url"> 
+<META content="https://webdesignchannel.ru/wp-content/uploads/2017/07/git-tutorial.png" 
+property="og:image"> 
+<META content="webdesignchannel.ru - Веб дизайн уроки" property="og:site_name"> 
+<META content="Git - Практическое руководство для начинающих. Быстрый старт по системе GIT." 
+property="og:description"> 
+<META content="2017-07-07T15:59:42Z" property="article:published_time"> 
+<META content="2017-09-21T23:50:42Z" property="article:modified_time"> 
+<META name="twitter:card" content="summary_large_image"> 
+<META name="twitter:title" content="GIT основы - руководство для начинающих. Быстрый старт"> 
+<META name="twitter:description" content="Git - Практическое руководство для начинающих. Быстрый старт по системе GIT."> 
+<META name="twitter:image" content="https://webdesignchannel.ru/wp-content/uploads/2017/07/git-tutorial.png">
+			 
+<SCRIPT type="text/javascript">
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', 'UA-91477815-1 ', 'auto');
+				// Plugins
+				
+				ga('send', 'pageview');
+			</SCRIPT>
+			 
+<SCRIPT src="git-qstart_files/analytics.js" async=""></SCRIPT>
+			 <!-- /all in one seo pack --> <LINK href="//s.w.org" rel="dns-prefetch"> 
+<LINK title="Webdesignchannel » Лента" href="https://webdesignchannel.ru/feed/" 
+rel="alternate" type="application/rss+xml"> <LINK title="Webdesignchannel » Лента комментариев" 
+href="https://webdesignchannel.ru/comments/feed/" rel="alternate" type="application/rss+xml"> 
+<LINK id="hu-user-gfont" href="git-qstart_files/css.css" rel="stylesheet" type="text/css"><LINK 
+title="Webdesignchannel » Лента комментариев к «GIT — система контроля версий. Руководство для начинающих»" 
+href="https://webdesignchannel.ru/git-tutorial/feed/" rel="alternate" type="application/rss+xml">
+		 
+<SCRIPT type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/webdesignchannel.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</SCRIPT>
+		 
+<STYLE type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</STYLE>
+ <LINK id="gglcptch-css" href="git-qstart_files/gglcptch.css" rel="stylesheet" 
+type="text/css" media="all"> <LINK id="hueman-main-style-css" href="git-qstart_files/main.min.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK id="theme-stylesheet-css" 
+href="https://webdesignchannel.ru/wp-content/themes/hueman/style.css?ver=all" 
+rel="stylesheet" type="text/css" media="all"> <LINK id="hueman-font-awesome-css" 
+href="git-qstart_files/font-awesome.min.css" rel="stylesheet" type="text/css" 
+media="all"> 
+<SCRIPT src="git-qstart_files/jquery.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/jquery-migrate.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/underscore.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"menuStickyUserSettings":{"desktop":"stick_always","mobile":"stick_always"},"isDevMode":""};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/scripts.min.js" type="text/javascript"></SCRIPT>
+ <LINK href="https://webdesignchannel.ru/wp-json/" rel="https://api.w.org/"> 
+<LINK title="RSD" href="https://webdesignchannel.ru/xmlrpc.php?rsd" rel="EditURI" 
+type="application/rsd+xml"> <LINK href="https://webdesignchannel.ru/wp-includes/wlwmanifest.xml" 
+rel="wlwmanifest" type="application/wlwmanifest+xml"> <LINK title="Gulp основы. Руководство для самых маленьких" 
+href="https://webdesignchannel.ru/gulp-accelerated-layout-fast-start/" rel="prev"> 
+<LINK title="Основы Bootstrap 4 — руководство для начинающих по использованию сетки" 
+href="https://webdesignchannel.ru/bootstrap4-grid/" rel="next"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18698"> <LINK href="https://webdesignchannel.ru/?p=521" 
+rel="shortlink"> <LINK href="https://webdesignchannel.ru/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebdesignchannel.ru%2Fgit-tutorial%2F" 
+rel="alternate" type="application/json+oembed"> <LINK href="https://webdesignchannel.ru/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebdesignchannel.ru%2Fgit-tutorial%2F&amp;format=xml" 
+rel="alternate" type="text/xml+oembed"> <!--[if lt IE 9]>
+<script src="https://webdesignchannel.ru/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="https://webdesignchannel.ru/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
+<![endif]--> 
+<STYLE id="syntaxhighlighteranchor" type="text/css"></STYLE>
+ <LINK href="https://webdesignchannel.ru/wp-content/uploads/2017/09/cropped-favicon-1-160x160.png" 
+rel="icon" sizes="32x32"> <LINK href="https://webdesignchannel.ru/wp-content/uploads/2017/09/cropped-favicon-1-320x320.png" 
+rel="icon" sizes="192x192"> <LINK href="https://webdesignchannel.ru/wp-content/uploads/2017/09/cropped-favicon-1-320x320.png" 
+rel="apple-touch-icon-precomposed"> 
+<META name="msapplication-TileImage" content="https://webdesignchannel.ru/wp-content/uploads/2017/09/cropped-favicon-1-320x320.png"> 
+<STYLE id="hu-dynamic-style" type="text/css">/* Dynamic CSS: For no styles in head, copy and put the css below in your child theme's style.css, disable dynamic styles */body { font-family:'Roboto Condensed', Arial, sans-serif;font-size:1.13rem }@media only screen and (min-width: 720px) {
+        .nav > li { font-size:1.13rem; }
+      }::selection { background-color: #3b8dbd; }
+::-moz-selection { background-color: #3b8dbd; }a,.themeform label .required,#flexslider-featured .flex-direction-nav .flex-next:hover,#flexslider-featured .flex-direction-nav .flex-prev:hover,.post-hover:hover .post-title a,.post-title a:hover,.s1 .post-nav li a:hover i,.content .post-nav li a:hover i,.post-related a:hover,.s1 .widget_rss ul li a,#footer .widget_rss ul li a,.s1 .widget_calendar a,#footer .widget_calendar a,.s1 .alx-tab .tab-item-category a,.s1 .alx-posts .post-item-category a,.s1 .alx-tab li:hover .tab-item-title a,.s1 .alx-tab li:hover .tab-item-comment a,.s1 .alx-posts li:hover .post-item-title a,#footer .alx-tab .tab-item-category a,#footer .alx-posts .post-item-category a,#footer .alx-tab li:hover .tab-item-title a,#footer .alx-tab li:hover .tab-item-comment a,#footer .alx-posts li:hover .post-item-title a,.comment-tabs li.active a,.comment-awaiting-moderation,.child-menu a:hover,.child-menu .current_page_item > a,.wp-pagenavi a{ color: #3b8dbd; }.themeform input[type="submit"],.themeform button[type="submit"],.s1 .sidebar-top,.s1 .sidebar-toggle,#flexslider-featured .flex-control-nav li a.flex-active,.post-tags a:hover,.s1 .widget_calendar caption,#footer .widget_calendar caption,.author-bio .bio-avatar:after,.commentlist li.bypostauthor > .comment-body:after,.commentlist li.comment-author-admin > .comment-body:after{ background-color: #3b8dbd; }.post-format .format-container { border-color: #3b8dbd; }.s1 .alx-tabs-nav li.active a,#footer .alx-tabs-nav li.active a,.comment-tabs li.active a,.wp-pagenavi a:hover,.wp-pagenavi a:active,.wp-pagenavi span.current{ border-bottom-color: #3b8dbd!important; }.s2 .post-nav li a:hover i,
+.s2 .widget_rss ul li a,
+.s2 .widget_calendar a,
+.s2 .alx-tab .tab-item-category a,
+.s2 .alx-posts .post-item-category a,
+.s2 .alx-tab li:hover .tab-item-title a,
+.s2 .alx-tab li:hover .tab-item-comment a,
+.s2 .alx-posts li:hover .post-item-title a { color: #82b965; }
+.s2 .sidebar-top,.s2 .sidebar-toggle,.post-comments,.jp-play-bar,.jp-volume-bar-value,.s2 .widget_calendar caption{ background-color: #82b965; }.s2 .alx-tabs-nav li.active a { border-bottom-color: #82b965; }
+.post-comments span:before { border-right-color: #82b965; }
+      .search-expand,
+#nav-topbar.nav-container { background-color: #26272b; background-color: rgba(38,39,43,0.8) }
+@media only screen and (min-width: 720px) {
+  #nav-topbar .nav ul { background-color: #26272b; }
+}
+        #header { background-color: #33363b; }
+@media only screen and (min-width: 720px) {
+  #nav-header .nav ul { background-color: #33363b; }
+}
+        #header .nav-container.mobile-sticky { background-color: #33363b; }#nav-header.nav-container { background-color: #33363b; }
+@media only screen and (min-width: 720px) {
+  #nav-header .nav ul { background-color: #33363b; }
+}
+        .site-title a img { max-height: 80px; }img { -webkit-border-radius: 2px; border-radius: 2px; }body { background-color: #eaeaea; }</STYLE>
+     <LINK href="git-qstart_files/sweetalert.min.css" rel="stylesheet">     
+<LINK href="git-qstart_files/stylesheet.css" rel="stylesheet"> </HEAD> 
+<BODY class="post-template-default single single-post postid-521 single-format-standard wp-custom-logo col-2cl full-width topbar-enabled header-desktop-sticky header-mobile-sticky ie">
+<DIV id="wrapper"><HEADER class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop " 
+id="header"><NAV class="nav-container group mobile-menu mobile-sticky " id="nav-header" 
+data-menu-id="header-1">
+<DIV class="mobile-title-logo-in-header">
+<P class="site-title"><A title="Webdesignchannel | Home page" class="custom-logo-link" 
+href="https://webdesignchannel.ru/" rel="home"><IMG alt="Webdesignchannel" src="git-qstart_files/logo.png"></A></P></DIV><!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> --> 
+        
+<DIV title="Menu" class="ham__navbar-toggler-two collapsed" aria-expanded="false">
+<DIV class="ham__navbar-span-wrapper"><SPAN class="line line-1"></SPAN><SPAN 
+class="line line-2"></SPAN><SPAN class="line line-3"></SPAN></DIV></DIV>
+<DIV class="nav-text"></DIV>
+<DIV class="nav-wrap container">
+<UL class="nav container-inner group mobile-search">
+  <LI>
+  <FORM class="searchform themeform" action="https://webdesignchannel.ru/" 
+  method="get">
+  <DIV><INPUT name="s" class="search" onfocus="if(this.value=='Укажите что ищете и нажмите Enter')this.value='';" onblur="if(this.value=='')this.value='Укажите что ищете и нажмите Enter';" type="text" value="Укажите что ищете и нажмите Enter"></DIV></FORM></LI></UL>
+<UL class="nav container-inner group" id="menu-header">
+  <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-723" 
+  id="menu-item-723"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Дизайн</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-507" 
+    id="menu-item-507"><A href="https://webdesignchannel.ru/category/webdesign-blog/">Веб 
+    дизайн</A></LI></UL></LI>
+  <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-715" 
+  id="menu-item-715"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Создание сайтов</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-508" 
+    id="menu-item-508"><A 
+    href="https://webdesignchannel.ru/category/html-blog/">Html | Html5</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-510" 
+    id="menu-item-510"><A 
+    href="https://webdesignchannel.ru/category/css-blog/">Css | Css3</A></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-724" 
+    id="menu-item-724"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Bootstrap</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-727" 
+      id="menu-item-727"><A href="https://webdesignchannel.ru/category/bootstrap3/">Bootstrap 
+      3</A></LI>
+      <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-728" 
+      id="menu-item-728"><A href="https://webdesignchannel.ru/category/bootstrap4/">Bootstrap 
+      4</A></LI></UL></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-509" 
+    id="menu-item-509"><A 
+    href="https://webdesignchannel.ru/category/php-blog/">Php</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-685" 
+    id="menu-item-685"><A 
+    href="https://webdesignchannel.ru/category/js-blog/">JavaScript | 
+    jQuery</A></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-716" 
+    id="menu-item-716"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Gulp</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-post menu-item-720" 
+      id="menu-item-720"><A href="https://webdesignchannel.ru/gulp-accelerated-layout-fast-start/">Gulp 
+      для самых маленьких</A></LI>
+      <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-759" 
+      id="menu-item-759"><A href="https://github.com/webdesignchannel/optimize_html" 
+      target="_blank">Готовая сборка (Gulp-pack)</A></LI></UL></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-718" 
+    id="menu-item-718"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Git</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-719" 
+      id="menu-item-719"><A href="https://webdesignchannel.ru/git-tutorial/">GIT 
+      Руководство для начинающих</A></LI></UL></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-post menu-item-763" 
+    id="menu-item-763"><A 
+  href="https://webdesignchannel.ru/yarn/">Yarn</A></LI></UL></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-886" 
+  id="menu-item-886"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Учебники</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-907" 
+    id="menu-item-907"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Javascript</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-947" 
+      id="menu-item-947"><A href="https://webdesignchannel.ru/javascript-lessons-basics/">Javascript 
+      — основы</A></LI>
+      <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950" 
+      id="menu-item-950"><A href="https://webdesignchannel.ru/javascript-lessons-dom/">Javascript 
+      — работа с DOM</A></LI></UL></LI></UL></LI></UL></DIV></NAV><!--/#nav-topbar-->  
+        <NAV class="nav-container group desktop-menu desktop-sticky " id="nav-topbar" 
+data-menu-id="header-2">
+<DIV class="nav-text"></DIV>
+<DIV class="topbar-toggle-down"><I title="Expand menu" class="fa fa-angle-double-down" 
+aria-hidden="true" data-toggle="down"></I>     <I title="Collapse menu" class="fa fa-angle-double-up" 
+aria-hidden="true" data-toggle="up"></I>   </DIV>
+<DIV class="nav-wrap container">
+<UL class="nav container-inner group" id="menu-topbar">
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-714" 
+  id="menu-item-714"><A href="https://webdesignchannel.ru/">Главная</A></LI>
+  <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713" 
+  id="menu-item-713"><A 
+  href="https://webdesignchannel.ru/contacts/">Контакты</A></LI></UL></DIV>
+<DIV class="container" id="topbar-header-search">
+<DIV class="container-inner">
+<DIV class="toggle-search"><I class="fa fa-search"></I></DIV>
+<DIV class="search-expand">
+<DIV class="search-expand-inner">
+<FORM class="searchform themeform" action="https://webdesignchannel.ru/" method="get">
+<DIV><INPUT name="s" class="search" onfocus="if(this.value=='Укажите что ищете и нажмите Enter')this.value='';" onblur="if(this.value=='')this.value='Укажите что ищете и нажмите Enter';" type="text" value="Укажите что ищете и нажмите Enter"></DIV></FORM></DIV></DIV></DIV><!--/.container-inner--> 
+    </DIV><!--/.container-->   </NAV><!--/#nav-topbar-->    
+<DIV class="container group">
+<DIV class="container-inner">
+<DIV class="group pad central-header-zone">
+<DIV class="logo-tagline-group">
+<P class="site-title"><A title="Webdesignchannel | Home page" class="custom-logo-link" 
+href="https://webdesignchannel.ru/" rel="home"><IMG alt="Webdesignchannel" src="git-qstart_files/logo.png"></A></P>
+<P class="site-description"></P></DIV></DIV><NAV class="nav-container group desktop-menu " 
+id="nav-header" data-menu-id="header-3">
+<DIV class="nav-text"><!-- put your mobile menu text here --></DIV>
+<DIV class="nav-wrap container">
+<UL class="nav container-inner group" id="menu-header-1">
+  <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-723"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Дизайн</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-507"><A 
+    href="https://webdesignchannel.ru/category/webdesign-blog/">Веб 
+    дизайн</A></LI></UL></LI>
+  <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-715"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Создание сайтов</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-508"><A 
+    href="https://webdesignchannel.ru/category/html-blog/">Html | Html5</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-510"><A 
+    href="https://webdesignchannel.ru/category/css-blog/">Css | Css3</A></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-724"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Bootstrap</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-727"><A 
+      href="https://webdesignchannel.ru/category/bootstrap3/">Bootstrap 
+      3</A></LI>
+      <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-728"><A 
+      href="https://webdesignchannel.ru/category/bootstrap4/">Bootstrap 
+      4</A></LI></UL></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-509"><A 
+    href="https://webdesignchannel.ru/category/php-blog/">Php</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-685"><A 
+    href="https://webdesignchannel.ru/category/js-blog/">JavaScript | 
+    jQuery</A></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-716"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Gulp</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-post menu-item-720"><A 
+      href="https://webdesignchannel.ru/gulp-accelerated-layout-fast-start/">Gulp 
+      для самых маленьких</A></LI>
+      <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-759"><A 
+      href="https://github.com/webdesignchannel/optimize_html" 
+      target="_blank">Готовая сборка (Gulp-pack)</A></LI></UL></LI>
+    <LI class="no-pointer menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-718"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Git</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-719"><A 
+      href="https://webdesignchannel.ru/git-tutorial/">GIT Руководство для 
+      начинающих</A></LI></UL></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-post menu-item-763"><A 
+    href="https://webdesignchannel.ru/yarn/">Yarn</A></LI></UL></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-886"><A 
+  href="https://webdesignchannel.ru/git-tutorial/#">Учебники</A>
+  <UL class="sub-menu">
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-907"><A 
+    href="https://webdesignchannel.ru/git-tutorial/#">Javascript</A>
+    <UL class="sub-menu">
+      <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-947"><A 
+      href="https://webdesignchannel.ru/javascript-lessons-basics/">Javascript — 
+      основы</A></LI>
+      <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950"><A 
+      href="https://webdesignchannel.ru/javascript-lessons-dom/">Javascript — 
+      работа с DOM</A></LI></UL></LI></UL></LI></UL></DIV></NAV><!--/#nav-header-->    
+      </DIV><!--/.container-inner-->       </DIV><!--/.container--> </HEADER><!--/#header--> 
+    
+<DIV class="container" id="page">
+<DIV class="container-inner">
+<DIV class="main">
+<DIV class="main-inner group"><SECTION class="content">
+<DIV class="page-title pad group">
+<UL class="meta-single group">
+  <LI class="category"><A href="https://webdesignchannel.ru/category/git/" rel="category tag">git</A></LI>
+  <LI class="comments"><A href="https://webdesignchannel.ru/git-tutorial/#comments"><I 
+  class="fa fa-comments-o"></I>2</A></LI></UL></DIV><!--/.page-title-->           
+<DIV class="pad group"><ARTICLE class="post-521 post type-post status-publish format-standard has-post-thumbnail hentry category-git tag-git">
+<DIV class="post-inner group">
+<H1 class="post-title entry-title">GIT — система контроля версий. Руководство 
+для начинающих</H1>
+<P class="post-byline">Автор:   <SPAN class="vcard author"><SPAN class="fn"><A 
+title="Записи Администратор" href="https://webdesignchannel.ru/author/mihailhrustalev664575/" 
+rel="author">Администратор</A></SPAN>    </SPAN> ·                             
+Опубликовано <time class="published" datetime="07.07.2017">07.07.2017</time>     
+         · Обновлено <time class="updated" 
+datetime="21.09.2017">21.09.2017</time>                </P>
+<DIV class="clear"></DIV>
+<DIV class="entry themeform">
+<DIV class="entry-inner">
+<DIV class="width100"><IMG width="720" height="340" class="alignleft size-full wp-image-586" 
+alt="Git основы, git установка, git настройка" src="git-qstart_files/git-tutorial.png" 
+sizes="(max-width: 720px) 100vw, 720px" srcset="https://webdesignchannel.ru/wp-content/uploads/2017/07/git-tutorial.png 720w, https://webdesignchannel.ru/wp-content/uploads/2017/07/git-tutorial-520x245.png 520w"> 
+</DIV>
+<P>Git - распределённая система контроля версий, включающая в себя набор 
+консольных программ, нацеленных на фиксирование и отслеживание изменений любых 
+файлов.</P>
+<P>Git используется разработчиками по всему миру оптимизируя и упрощая 
+разработку внутри  команды. Работая с VCS GIT вы способны подключаться к 
+удаленным репозиториям (например: github) из вашей рабочей папки.</P>
+<P>После успешной синхронизации вам предоставляется возможность скачать 
+репозиторий с github локально на компьютер либо выгрузить данные на удаленный 
+git репозиторий. Таким образом git является необходимым инструментом для 
+разработчика, облегчая работу над конкретным проектом для нескольких людей.</P>
+<H1 style="padding: 40px 0px 10px;">Основной список git команд:</H1>
+<PRE>git init - Инициализация репозитория
+
+git status - Просмотр состояния
+
+git clone [ссылка на удаленный git репозиторий] - Скачивание git репозитория
+
+git commit -m 'сообщение' - Фиксация изменений
+
+git add . - Добавить все
+
+git add -A - Добавить все
+
+git add [файл с расширением] - Добавить конкретный файл
+
+git push origin master - Отправка изменений в ветку master
+
+git pull origin master - Принятие изменений из ветки master
+
+git checkout [git ветка] - Перейти на ветку
+
+git branch - Посмотреть все имеющиеся ветки
+
+git branch [git ветка] - Создать ветку
+
+git merge [git ветка] - Слияние веток
+
+git rm [файл] - Удаление файла
+
+git push origin HEAD - Отправить текущую ветку на удаленный git репозиторий, не вводя ее название
+
+git push origin - Отправить все ветки на удаленный git репозиторий
+
+git branch -d [git ветка] - Удалить ветку (после git merge)
+
+git branch -D [git ветка] - Просто удалить ветку (игнорируя git merge)
+
+git push origin :[git ветка] - Удалить ветку в удаленном git репозитории
+
+git reset --hard d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Жесткий откат к конкретному коммиту (хэш смотрим в «git log»)
+
+git reset --soft d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Мягкий откат к конкретному коммиту (хэш смотрим в «git log»)
+
+git remote add origin [ссылка на удаленный git репозиторий] - Подключится к удаленному git репозиторию
+</PRE>
+<H1 style="padding: 40px 0px 10px;">Git установка</H1>
+<P><STRONG>Установка git для Windows:</STRONG></P>
+<DIV class="compact-block"><SPAN>Рекомендуется официальный дистрибутив, 
+содержащий в себе графическую оболочку и консоль. Скачать git клиент можно <A 
+href="https://git-scm.com/download/win" target="_blank">перейдя по 
+ссылке</A>.</SPAN> </DIV>
+<P><STRONG>Установка git для Linux:</STRONG></P>
+<DIV class="compact-block"><SPAN>Откройте терминал и введите команду <MARK>sudo 
+apt-get install git</MARK></SPAN> </DIV>
+<P><STRONG>Установка git для MAC на OS X:</STRONG></P>
+<DIV class="compact-block"><SPAN>Графический инсталлятор. Скачать git клиент 
+можно <A href="http://sourceforge.net/projects/git-osx-installer/" target="_blank">перейдя 
+по ссылке</A>.</SPAN> </DIV>
+<H1 style="padding: 40px 0px 10px;">Git настройка</H1>
+<P>Перед началом работы настоятельно рекомендуется произвести инициализацию вас 
+как пользователя.</P>
+<PRE>git config --global user.name "Ваше имя"
+git config --global user.email ваш@mail.ru
+</PRE>
+<P>После указания имени и email ваши данные станут публичными. Все ваши действия 
+будут помечены именем и почтой.</P>
+<H1 style="padding: 40px 0px 10px;">Git init - Создание git репозитория</H1>
+<P>Для инициализации репозитория, в консоли необходимо ввести команду <MARK>git 
+init</MARK>, предварительно выбрав директорию для работы.</P>
+<P>Для этой цели я создал папку site6.local в корне локального сервера open 
+server. Путь до рабочей папки выглядит следующим образом: 
+C:/OpenServer/domains/site6.local. Вы можете создать директорию в любом месте и 
+назвать по своему желанию.</P>
+<P><STRONG>Открываем git консоль и переходим в рабочую папку:</STRONG></P>
+<DIV class="compact-block">cd C:/OpenServer/domains/site6.local </DIV>
+<BLOCKQUOTE>
+  <P><STRONG class="green-text">Примечание!</STRONG><BR>В операционной системе 
+  Windows, кликнув внутри рабочей папки правой кнопкой мыши, в зависимости от 
+  установленного git ПО, вы можете вызвать git консоль моментально из текущей 
+  директории без надобности указания пути.</P></BLOCKQUOTE>
+<P><STRONG>Как уже упоминалось ранее, для инициализации git репозитория вводим в 
+терминал команду:</STRONG></P>
+<DIV class="compact-block">git init </DIV>
+<P>В ответ мы должны получить Initialized empty Git repository in [путь] - это 
+означает что git репозиторий был успешно инициализирован и в корне проекта была 
+создана скрытая папка с названием .git в которой хранятся git настройки и прочие 
+служебные файлы.</P>
+<H1 style="padding: 40px 0px 10px;">Git status - Определение состояния</H1>
+<P>Создадим обычный текстовый файл test1.txt с любым содержимым (по 
+желанию).</P>
+<P><STRONG>Вводим в git консоль команду:</STRONG></P>
+<DIV class="compact-block">git status </DIV>
+<P><SPAN>В ответ мы получим следующее сообщение:<SPAN></SPAN></SPAN></P>
+<P><IMG width="728" height="322" class="alignleft size-full wp-image-555" alt="git status" 
+src="git-qstart_files/git_status.png"></P>
+<P>Нам необходимо добавить файл и произвести commit для фиксации изменений и 
+указания сообщения (Например: Был создан текстовой файл).</P>
+<H1 style="padding: 40px 0px 10px;">Git add - Подготовка файлов</H1>
+<P><STRONG>Пропишем в терминале git команду добавления конкретного 
+файла:</STRONG></P>
+<DIV class="compact-block">git add test1.txt </DIV>
+<P><STRONG>Для добавления всех файлов вы можете использовать 
+команды:</STRONG></P>
+<DIV class="compact-block">git add .<BR>git add -A </DIV>
+<BLOCKQUOTE>
+  <P><STRONG class="green-text">Примечание!</STRONG><BR>При всех последующих 
+  изменениях файла test1.txt вам каждый раз необходимо добавлять файл 
+заново.</P></BLOCKQUOTE>
+<P><STRONG>Проверим статус командой:</STRONG> </P>
+<DIV class="compact-block">git status </DIV>
+<P><SPAN>Теперь сообщение выглядит иначе:</SPAN></P>
+<P><IMG width="728" height="322" class="alignleft size-full wp-image-559" alt="git status" 
+src="git-qstart_files/git_status2.png"></P>
+<H1 style="padding: 40px 0px 10px;">Git commit - Фиксация изменений</H1>
+<P>Коммиты в гите необходимы для отслеживания изменений. Если вы делаете commit 
+с указанием ключа -m "в котором даете понять какие изменения вы внесли", то все 
+коммиты моментально вносятся в историю и доступны для публичного просмотра. 
+Более того git коммиты содержат ключи обращаясь к котором вы с легкостью можете 
+откатиться до нужного вам состояния.</P>
+<P><STRONG>После добавления файла командой</STRONG> <MARK>git add</MARK> 
+<STRONG>необходимо произвести фиксацию изменений командой:</STRONG></P>
+<DIV class="compact-block">git commit -m "сообщение" </DIV>
+<P><STRONG>Для просмотра истории коммитов достаточно ввести 
+команду:</STRONG></P>
+<DIV class="compact-block">git log </DIV>
+<P><SPAN>В результате получаем ответ:</SPAN></P>
+<P><IMG width="728" height="322" class="alignleft size-full wp-image-561" alt="git log" 
+src="git-qstart_files/git-log.png"></P>
+<P>В котором содержится идентификатор состояния, автор, дата создания git 
+коммита.</P>
+<BLOCKQUOTE>
+  <P><STRONG class="green-text">Примечание!</STRONG><BR>С каждым последующим 
+  изменением в файле или добавлением новых вы должны запомнить 
+  последовательность действий:<BR>git add (добавляем файлы) -&gt; git commit -m 
+  "" (Фиксируем состояние).</P></BLOCKQUOTE>
+<H1 style="padding: 40px 0px 10px;">Git reset - Откат изменений</H1>
+<P>Если содержимое текстового файла test1.txt пустое, запишем в него: hello 
+world!!!</P>
+<P><STRONG>После успешного сохранения документа вводим в консоль:</STRONG></P>
+<DIV class="compact-block">git status<BR>git add .<BR>git commit -m "Написали 
+привет мир!"<BR>git log </DIV>
+<P>Скопируйте полностью хэш самого первого состояния в формате : 
+def8d5cad2193801239d08f5fa3d1d6b1ed033f1</P>
+<P><STRONG>Для отката изменений к конкретному коммиту выполним 
+команду:</STRONG></P>
+<PRE>git reset --soft def8d5cad2193801239d08f5fa3d1d6b1ed033f1
+</PRE>
+<BLOCKQUOTE>
+  <P><STRONG class="red-text">Важно!</STRONG></P>
+<PRE>Откат изменений с ключом <MARK>--soft</MARK> не удаляет состояния, а лишь смещает индекс. Наиболее рекомендуемый способ для отката.
+Откат изменений с ключом <MARK>--hard</MARK> удаляет полностью все состояния и индексы.</PRE></BLOCKQUOTE>
+<H1 style="padding: 40px 0px 10px;">Gitignore - игнорирование файлов и 
+папок</H1>
+<P>Создадим папку с названием ignore_files. Внутри папки создадим текстовый файл 
+file.txt. Если по каким либо причинам требуется игнорировать данную папку и не 
+добавлять ее в git репозиторий, необходимо в корне проекта создать gitignore 
+файл.</P>
+<P>Если система ругается на создание файла с именем .gitignore, создайте простой 
+текстовый документ и пересохраните его c именем .gitignore.</P>
+<P>Откроем файл gitignore в текстовом редакторе и добавим название папки которую 
+хотим исключить: <MARK>ignore_files</MARK></P>
+<P><IMG width="720" height="400" class="alignleft size-full wp-image-565" alt="gitignore" 
+src="git-qstart_files/Безимени-1.gif"></P>
+<P><STRONG>Сохраняем документ и командой git status проверяем:</STRONG></P>
+<P><IMG width="728" height="322" class="alignleft size-full wp-image-566" alt="git status, gitignore" 
+src="git-qstart_files/git_status3ignore.png"></P>
+<P>Если все сделали правильно, в ответ не увидим папки которую исключили.</P>
+<H1 style="padding: 40px 0px 10px;">Работа с удаленными git репозиториями</H1>
+<P>Использование git в боевых условиях: почти всегда означает работу с 
+удаленными репозиториями. Перед подключением и отправкой данных в git 
+репозиторий, необходимо создать учетную запись на <A href="http://github.com/" 
+target="_blank">github.com</A>. </P>
+<P><SPAN>Создаем новый репозиторий на github:<SPAN></SPAN></SPAN></P>
+<P><IMG width="720" height="500" class="alignleft size-full wp-image-567" alt="github создать git репозиторий" 
+src="git-qstart_files/github.png"></P>
+<PRE>1.Задаем имя
+2.Описание(по желанию)
+3.Оставляем репозиторий в публичном доступе
+4.Создаем репозиторий
+5.Копируем ссылку на репозиторий
+</PRE>
+<P><STRONG>Переходим в рабочую папку локального репозитория и вводим в консоль 
+команду:</STRONG></P>
+<DIV class="compact-block">git remote add origin 
+https://github.com/deadboy2/test.git </DIV>
+<P>Теперь локальный git репозиторий успешно связан с удаленным.</P>
+<H1 style="padding: 40px 0px 10px;">Отправляем данные в удаленный git 
+репозиторий</H1>
+<P><STRONG>После успешного подключения к репозиторию на github можно смело 
+отправлять данные командой:</STRONG></P>
+<DIV class="compact-block">git push origin master </DIV>
+<P><MARK>origin</MARK> - имя репозитория по умолчанию.<BR><MARK>master</MARK> - 
+ветка в которую мы хотим отправить данные(по умолчанию master - главная 
+ветка).</P>
+<P>После выполнения команды <MARK>git push</MARK> в удаленном репозитории вы 
+должны увидеть все ваши данные. Обратите внимание, что игнорированные файлы не 
+попали в репозиторий на github.</P>
+<H1 style="padding: 40px 0px 10px;">Принимаем данные из удаленного git 
+репозитория</H1>
+<P><STRONG>Поскольку изменений в удаленный репозиторий никто не вносил, 
+принимать нам нечего. Попробуйте создать новый файл или внести правки в уже 
+имеющийся затем введите команду:</STRONG></P>
+<DIV class="compact-block">git pull origin master </DIV>
+<H1 style="padding: 40px 0px 10px;">Git clone - Клонирование репозитория</H1>
+<P><STRONG>Для скачивания git репозитория из github достаточно ввести 
+команду:</STRONG></P>
+<DIV class="compact-block">git clone https://github.com/deadboy2/test.git </DIV>
+<H1 style="padding: 40px 0px 10px;">Git branch - работа с ветками</H1>
+<P>Представьте, что вы являетесь разработчиком плагина, у которого со временем 
+будут выходить важные обновления. И чтобы не затрагивать старую версию разумнее 
+создать новую. Итог: две ветки с разными версиями. Кроме основных официальных 
+версий могут быть и подверсии. С git ветками можно производить манипуляции, а 
+именно: создание, слияние, удаление.</P>
+<H1 style="padding: 40px 0px 10px;">Создание git ветки</H1>
+<P><STRONG>В терминале введем команду на создание новой git ветки:</STRONG></P>
+<DIV class="compact-block">git branch 1.0 </DIV>
+<P><STRONG>Для просмотра всех имеющихся веток вводим команду:</STRONG></P>
+<DIV class="compact-block">git branch </DIV>
+<P>В ответ получаем имена веток где *звездочкой указанна текущая активная 
+ветвь.</P>
+<P><STRONG>Для перехода на ветвь с именем 1.0 необходимо ввести 
+команду:</STRONG></P>
+<DIV class="compact-block">git checkout 1.0 </DIV>
+<P>Теперь создайте в корне проекта папку 1.0 внутри которой текстовый файл с 
+именем 1.0 и внесите в него любое содержимое. На этом этапе вы должны находится 
+на ветке с именем 1.0.</P>
+<P><STRONG>Добавьте файлы:</STRONG></P>
+<DIV class="compact-block">git add . </DIV>
+<P><STRONG>Зафиксируйте изменения:</STRONG></P>
+<DIV class="compact-block">git commit -m "Создали папку и файл с именем 1.0 в 
+новой git ветке 1.0" </DIV>
+<P><STRONG>Переключитесь на ветку master командой:</STRONG></P>
+<DIV class="compact-block">git checkout master </DIV>
+<P>Наблюдайте за происходящим в корне проекта, выполняя переходы с одной ветки 
+на другую.</P>
+<H1 style="padding: 40px 0px 10px;">Слияние и удаление git веток</H1>
+<P><STRONG>Чтобы произвести слияние ветки master и 1.0 нужно переключится на 
+ветку master:</STRONG></P>
+<DIV class="compact-block">git checkout master </DIV>
+<P><STRONG>Командой git merge производим слияние двух git веток:</STRONG></P>
+<DIV class="compact-block">git merge 1.0 </DIV>
+<P><STRONG>Затем git ветку с именем 1.0 можно удалить командой:</STRONG></P>
+<DIV class="compact-block">git branch 1.0 -D </DIV>
+<H1 style="padding: 40px 0px 10px;">Разрешение конфликтов при слиянии git 
+веток</H1>
+<P>Git конфликты возникают довольно часто когда несколько разработчиков работают 
+в разных ветках. К примеру вы пишете код в ветке master в файле index.txt а 
+другой разработчик пишет в этом же файле, но уже в иной git ветке под названием 
+test. Рассмотрим на примере:</P>
+<P><STRONG>Файл index.txt в ветке master с содержимым:</STRONG></P>
+<DIV class="compact-block">hello из ветки мастер </DIV>
+<P><STRONG>Файл index.txt в ветке test с содержимым:</STRONG></P>
+<DIV class="compact-block">hello из ветки тест </DIV>
+<P>Как только произойдет слияние двух веток произойдет исключение и в консоли 
+всплывет предупреждающее сообщение.</P>
+<P>Чтобы в ручную решить конфликт необходимо открыть файл index.txt и обсудить с 
+разработчиком какие изменения из двух следует оставить. После чего произвести 
+добавление и фиксацию коммита, а ненужную ветку удалить.</P>
+<P>На этом туториал по основам git закончен. Надеюсь, что данная статья помогла 
+вам лучше разобраться в работе с VCS git. Ниже вы найдете ссылки на учебники в 
+которых изложена исчерпывающая информация по работе с данным инструментом.</P>
+<P><A href="https://git-scm.com/book/ru/v2" target="_blank">Pro git</A><BR><A 
+href="http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/index.html" 
+target="_blank">Магия Git</A></P><NAV class="pagination group"></NAV><!--/.pagination--> 
+        </DIV>
+<DIV class="clear"></DIV></DIV><!--/.entry-->     </DIV><!--/.post-inner-->   
+</ARTICLE><!--/.post--> 
+<DIV class="clear"></DIV>
+<P class="post-tags"><SPAN>Метки:</SPAN> <A href="https://webdesignchannel.ru/tag/git/" 
+rel="tag">git</A></P><SECTION class="themeform" id="comments">
+<H3 class="heading">комментария 2</H3>
+<UL class="comment-tabs group">
+  <LI class="active"><A href="https://webdesignchannel.ru/git-tutorial/#commentlist-container"><I 
+  class="fa fa-comments-o"></I>Комментарии<SPAN>2</SPAN></A></LI>
+  <LI><A href="https://webdesignchannel.ru/git-tutorial/#pinglist-container"><I 
+  class="fa fa-share"></I>Пинги<SPAN>0</SPAN></A></LI></UL>
+<DIV class="comment-tab" id="commentlist-container">
+<OL class="commentlist">
+  <LI class="comment even thread-even depth-1 parent" id="comment-4">
+  <DIV class="comment-body" id="div-comment-4">
+  <DIV class="comment-author vcard"><IMG width="48" height="48" class="avatar avatar-48 photo" 
+  alt="" src="git-qstart_files/657a297a4d2e2d5117b1b54ef41836b6.png" srcset="https://secure.gravatar.com/avatar/657a297a4d2e2d5117b1b54ef41836b6?s=96&amp;d=wavatar&amp;r=g 2x">			<CITE 
+  class="fn">Максим</CITE><SPAN class="says">:</SPAN>		</DIV>
+  <DIV class="comment-meta commentmetadata"><A href="https://webdesignchannel.ru/git-tutorial/#comment-4">14.07.2017 
+  в 17:40</A>		</DIV>
+  <P>Благодарю за подробное руководство! очень выручили. Теперь гораздо легче 
+  идти дальше изучать)))))</P>
+  <DIV class="reply"><A class="comment-reply-link" aria-label="Комментарий к записи Максим" 
+  onclick='return addComment.moveForm( "div-comment-4", "4", "respond", "521" )' 
+  href="https://webdesignchannel.ru/git-tutorial/?replytocom=4#respond" rel="nofollow">Ответить</A></DIV></DIV>
+  <UL class="children">
+    <LI class="comment byuser comment-author-mihailhrustalev664575 bypostauthor odd alt depth-2" 
+    id="comment-5">
+    <DIV class="comment-body" id="div-comment-5">
+    <DIV class="comment-author vcard"><IMG width="48" height="48" class="avatar avatar-48 photo" 
+    alt="" src="git-qstart_files/f5b9e807daff952a7c3183838dd81c37.png" srcset="https://secure.gravatar.com/avatar/f5b9e807daff952a7c3183838dd81c37?s=96&amp;d=wavatar&amp;r=g 2x">			<CITE 
+    class="fn">Mihailhrustalev</CITE><SPAN class="says">:</SPAN>		</DIV>
+    <DIV class="comment-meta commentmetadata"><A href="https://webdesignchannel.ru/git-tutorial/#comment-5">
+    			18.07.2017 в 11:00</A>		</DIV>
+    <P>Успехов вам в изучении!))</P>
+    <DIV class="reply"><A class="comment-reply-link" aria-label="Комментарий к записи Mihailhrustalev" 
+    onclick='return addComment.moveForm( "div-comment-5", "5", "respond", "521" )' 
+    href="https://webdesignchannel.ru/git-tutorial/?replytocom=5#respond" rel="nofollow">Ответить</A></DIV></DIV></LI><!-- #comment-## --> 
+  </UL><!-- .children --> </LI><!-- #comment-## -->			 </OL><!--/.commentlist-->
+					 </DIV>
+<DIV class="comment-respond" id="respond">
+<H3 class="comment-reply-title" id="reply-title">Добавить комментарий <SMALL><A 
+id="cancel-comment-reply-link" style="display: none;" href="https://webdesignchannel.ru/git-tutorial/#respond" 
+rel="nofollow">Отменить ответ</A></SMALL></H3>
+<FORM class="comment-form" id="commentform" action="https://webdesignchannel.ru/wp-comments-post.php" 
+method="post">
+<P class="comment-notes"><SPAN id="email-notes">Ваш e-mail не будет 
+опубликован.</SPAN> Обязательные поля помечены <SPAN 
+class="required">*</SPAN></P>
+<P class="comment-form-comment"><LABEL 
+for="comment">Комментарий</LABEL><TEXTAREA name="comment" id="comment" aria-required="true" required="required" maxlength="65525" rows="8" cols="45"></TEXTAREA></P>
+<P class="comment-form-author"><LABEL for="author">Имя <SPAN 
+class="required">*</SPAN></LABEL><INPUT name="author" id="author" aria-required="true" required="required" type="text" size="30" maxlength="245"></P>
+<P class="comment-form-email"><LABEL for="email">E-mail <SPAN 
+class="required">*</SPAN></LABEL><INPUT name="email" id="email" aria-required="true" aria-describedby="email-notes" required="required" type="text" size="30" maxlength="100"></P>
+<P class="comment-form-url"><LABEL for="url">Сайт</LABEL><INPUT name="url" id="url" type="text" size="30" maxlength="200"></P>
+<DIV class="gglcptch gglcptch_v2">
+<DIV class="gglcptch_recaptcha" 
+id="gglcptch_recaptcha_1386470194"></DIV><NOSCRIPT>					&lt;div style="width: 
+302px;"&gt;						&lt;div style="width: 302px; height: 422px; position: 
+relative;"&gt;							&lt;div style="width: 302px; height: 422px; position: 
+absolute;"&gt;								&lt;iframe 
+src="https://www.google.com/recaptcha/api/fallback?k=6Lecqw8UAAAAAFtOq4ieACCArj_-Az3VtFrxqdBB" 
+frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: 
+none;"&gt;&lt;/iframe&gt;							&lt;/div&gt;						&lt;/div&gt;						&lt;div 
+style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; 
+right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; 
+height: 60px; width: 300px;"&gt;							&lt;textarea id="g-recaptcha-response" 
+name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px 
+!important; height: 40px !important; border: 1px solid #c1c1c1 !important; 
+margin: 10px 25px !important; padding: 0px !important; resize: none 
+!important;"&gt;&lt;/textarea&gt;						&lt;/div&gt;					&lt;/div&gt;
+				 </NOSCRIPT></DIV>
+<P class="form-submit"><INPUT name="submit" class="submit" id="submit" type="submit" value="Отправить комментарий"> 
+<INPUT name="comment_post_ID" id="comment_post_ID" type="hidden" value="521"> 
+<INPUT name="comment_parent" id="comment_parent" type="hidden" value="0"> 
+</P></FORM></DIV><!-- #respond -->	 </SECTION><!--/#comments-->          </DIV><!--/.pad--> 
+        </SECTION><!--/.content-->          	 
+<DIV class="sidebar s1 collapsed" data-position="right" data-sb-id="s1" 
+data-layout="col-2cl"><A title="Развернуть боковое меню" 
+class="sidebar-toggle"><I class="fa icon-sidebar-toggle"></I></A>		 
+<DIV class="sidebar-content">
+<DIV class="sidebar-top group right-bar">
+<P><I class="fa fa-telegram icon-telegram" aria-hidden="true"></I><A href="tg://resolve/?domain=webdesignchannelbot"><SPAN>Telegram</SPAN></A></P></DIV>
+<DIV class="widget widget_text" id="text-5">
+<DIV class="textwidget">
+<SCRIPT src="git-qstart_files/openapi.js" type="text/javascript"></SCRIPT>
+ <!-- VK Widget --> 
+<DIV id="vk_groups"></DIV>
+<SCRIPT type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "280"}, 135389658);
+</SCRIPT>
+</DIV></DIV>
+<DIV class="widget widget_text" id="text-3"><A href="https://beget.com/?id=366533" 
+target="_blank"><IMG src="git-qstart_files/static200x200_6.png" border="0"></A>  
+		      		   <!--LiveInternet counter-->
+<SCRIPT type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t14.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+</SCRIPT>
+<!--/LiveInternet--> <!-- HotLog --> <SPAN id="hotlog_counter"></SPAN> <SPAN id="hotlog_dyn"></SPAN> 
+<SCRIPT type="text/javascript"> var hot_s = document.createElement('script');
+hot_s.type = 'text/javascript'; hot_s.async = true;
+hot_s.src = 'http://js.hotlog.ru/dcounter/2552378.js';
+hot_d = document.getElementById('hotlog_dyn');
+hot_d.appendChild(hot_s);
+</SCRIPT>
+ <A href="http://click.hotlog.ru/?2552378" target="_blank"><IMG title="HotLog" 
+alt="HotLog" src="git-qstart_files/count.gif" border="0"></A> <!-- /HotLog -->  
+		 </DIV></DIV><!--/.sidebar-content-->	 </DIV><!--/.sidebar-->	         </DIV><!--/.main-inner--> 
+      </DIV><!--/.main-->     </DIV><!--/.container-inner-->   </DIV><!--/.container--> 
+    <FOOTER id="footer"><SECTION class="container" id="footer-bottom">
+<DIV class="container-inner"><A id="back-to-top" href="https://webdesignchannel.ru/git-tutorial/#"><I 
+class="fa fa-angle-up"></I></A>
+<DIV class="pad group">
+<DIV class="grid one-half">
+<DIV id="copyright">
+<P>© 2017. При копировании материалов прямая ссылка на сайт 
+обязательна</P></DIV><!--/#copyright--> 
+<DIV class="counter-block"><!-- Yandex.Metrika informer --> <A href="https://metrika.yandex.ru/stat/?id=41865469&amp;from=informer" 
+target="_blank" rel="nofollow"><IMG title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" 
+class="ym-advanced-informer" style="border: 0px currentColor; border-image: none; width: 88px; height: 31px;" 
+alt="Яндекс.Метрика" src="git-qstart_files/3_1_FFFFFFFF_FFFFFFFF_0_uniques.png" 
+data-lang="ru" data-cid="41865469"></A> <!-- /Yandex.Metrika informer --> <!-- Yandex.Metrika counter --> 
+
+<SCRIPT type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter41865469 = new Ya.Metrika({ id:41865469, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </SCRIPT>
+ <NOSCRIPT>&lt;div&gt;&lt;img src="https://mc.yandex.ru/watch/41865469" 
+style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</NOSCRIPT> <!-- /Yandex.Metrika counter --> <!-- Rating@Mail.ru logo --> 
+<A href="http://top.mail.ru/jump?from=2903408"><IMG width="88" height="31" 
+style="border: 0px currentColor; border-image: none;" alt="Рейтинг@Mail.ru" src="git-qstart_files/counter.gif"></A> <!-- //Rating@Mail.ru logo --> <!-- Rating@Mail.ru counter --> 
+<SCRIPT type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2903408", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</SCRIPT>
+<NOSCRIPT>&lt;div&gt;&lt; img src="//top-fwz1.mail.ru/counter?id=2903408;js=na" 
+style="border:0;position:absolute;left:-9999px;" alt="" /&gt;
+&lt; /div&gt;</NOSCRIPT> <!-- //Rating@Mail.ru counter --> <!-- Top YandeG for: `webdesignchannel.ru` id: `357411` --> 
+<A title="Статистика сайта. Показано: просмотров страниц за неделю, просмотров страниц сегодня, посетителей сегодня." 
+style="font-size: 8px; text-decoration: none;" href="http://yandeg.ru/" target="_blank">
+<SCRIPT type="text/javascript">
+<!--
+document.write('<img '+
+'src="//count.yandeg.ru/cnt.php?id=357411&img=10&h='+escape(document.URL)+
+'&ref='+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+'&s='+screen.width+'*'+screen.height+
+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+
+'&rand='+Math.random()+
+'" width="88" height="31" border="0"'+
+' alt="Рейтинг Сайтов YandeG" />')
+//--></SCRIPT>
+</A><!-- /Top YandeG --> </DIV>
+<DIV id="credit"></DIV><!--/#credit-->                       </DIV>           
+<DIV class="grid one-half last partners-block"><!-- <a onclick="part()">Наши партнеры</a> --> 
+          </DIV>         </DIV><!--/.pad-->       </DIV><!--/.container-inner--> 
+    </SECTION><!--/.container-->   </FOOTER><!--/#footer--> </DIV><!--/#wrapper--> 
+<SCRIPT src="git-qstart_files/sweetalert.min.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+
+
+function part() {
+       swal({
+  title: "<img src='https://webdesignchannel.ru/wp-content/uploads/2017/07/icon-partn.png'/>",
+  text: "<a target='_blank' href='http://webmoney.today'>Webmoney.Today</a>",
+  html: true
+});}
+</SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/comment-reply.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/wp-embed.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/api.js" defer="defer" type="text/javascript" async="async" data-cfasync="false"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6Lecqw8UAAAAAFtOq4ieACCArj_-Az3VtFrxqdBB","theme":"light","error":"<strong>\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435<\/strong>:&nbsp;\u0412 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u0431\u043e\u043b\u0435\u0435 \u043e\u0434\u043d\u043e\u0433\u043e \u0431\u043b\u043e\u043a\u0430 reCAPTCHA. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0443\u0434\u0430\u043b\u0438\u0442\u0435 \u0432\u0441\u0435 \u043b\u0438\u0448\u043d\u0438\u0435 \u0431\u043b\u043e\u043a\u0438 reCAPTCHA \u0434\u043b\u044f \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0439 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b."},"vars":{"visibility":false}};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="git-qstart_files/script.js" type="text/javascript"></SCRIPT>
+ <!--[if lt IE 9]>
+<script src="https://webdesignchannel.ru/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
+<![endif]--> 
+<SCRIPT>
+var linkNav = document.querySelectorAll('[href^="#"]'),
+    V = 0.1;  // скорость, может иметь дробное значение через точку
+for (var i = 0; i < linkNav.length; i++) {
+  linkNav[i].addEventListener('click', function(e) {
+    e.preventDefault();
+    var w = window.pageYOffset,  // прокрутка
+        hash = this.href.replace(/[^#]*(.*)/, '$1');  // id элемента, к которому нужно перейти
+        t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
+        start = null;
+    requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
+    function step(time) {
+      if (start === null) start = time;
+      var progress = time - start,
+          r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+      window.scrollTo(0,r);
+      if (r != w + t) {
+        requestAnimationFrame(step)
+      } else {
+        location.hash = hash  // URL с хэшем
+      }
+    }
+  }, false);
+}
+</SCRIPT>
+ </BODY></HTML>
