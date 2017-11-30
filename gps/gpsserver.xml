@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25" zv="Cache for Windows (x86-64) 2012.1.2 (Build 702)" ts="2017-02-27 17:03:22">
+<Class name="User.gpsserver">
+<Description>
+Сервер для сбора геоданных с клиентов </Description>
+<Super>%RegisteredObject</Super>
+<TimeChanged>64336,57764.900296</TimeChanged>
+<TimeCreated>64334,58541.024979</TimeCreated>
+
+<Method name="Server">
+<ClassMethod>1</ClassMethod>
+<Implementation><![CDATA[
+   #; do ##class(User.gpsserver).Server()
+   
+   #dim sock As %IO.ServerSocket = ##class(%IO.ServerSocket).%New() 
+
+   write #,"Запуск сервера...", ! 
+
+   do sock.Open(8089, 1, .sc)
+
+   if $$$ISOK(sc) {
+
+     do sock.Listen(-1, .sc)
+
+     do{
+       set s=sock.ReadAny($$$MaxLocalLength,, .sc)
+       write s,!
+      #; s a = 
+      #; set name = $piece(s,",",1)
+      #; set time = $piece(s,",",2)
+     #;  set lat = $piece(s,",",3)
+      #; set lon = $piece(s,",",4)
+      
+      
+       s ^gps =s
+       
+       do sock.Write(s, $$$YES, .sc)
+     }while(s'="0!")
+     
+     do sock.Close()
+
+     write "Останов сервера...", ! 
+   }
+]]></Implementation>
+</Method>
+</Class>
+</Export>

@@ -1,0 +1,2232 @@
+directory: d:\database\a3\
+Page: 1                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      a1                 1              292      4 %         0
+      aa                 1               32      0 %         0
+      aaa                1               68      1 %         0
+      aaaa               8           54,460     83 %         6
+      aaaaa              8           52,064     80 %         2
+      AAAAHEAD           1              528      6 %         0
+      AAAAWH2RW          1              164      2 %         0
+      AAABALAN           1              148      2 %         0
+      AAASTR             1            2,272     28 %         0
+      aaETSNG           42          258,364     75 %        33
+      aaii               1               60      1 %         0
+      aaMy               1              408      5 %         0
+      AARAZMETKA         4           26,544     81 %         3
+      aatest             1              504      6 %         0
+      aattt              1            1,420     17 %         0
+      ab                 1               56      1 %         0
+      aBuildInfo       256        1,530,164     73 %        87
+      ac                 1               24      0 %         0
+      AddContainerUnit
+                       320        1,814,572     69 %         0
+      AddDirectEntry
+                       271        1,542,920     70 %         0
+      ADELIVERYINFO
+                         1               72      1 %         0
+      adm.EDI            1              668      8 %         0
+      admin.CheckPassLogD
+                   130,108      923,852,164     87 %    16,678
+      admin.CheckPassLogI
+                     8,939       65,036,892     89 %     3,090
+      admin.Company2CompanyD
+                         3           18,376     75 %         0
+      admin.Company2CompanyI
+                         5           31,936     78 %         1
+      admin.CompanyD
+                        53          361,048     83 %         9
+      admin.CompanyI
+                        29          193,292     82 %         6
+      admin.DevLogD
+                    21,147      154,079,932     89 %       492
+      admin.DevLogI
+                     7,265       48,655,084     82 %       124
+      admin.ds.BlackListD
+                         1              360      4 %         0
+      admin.ds.BlackListMessageLogD
+                         1            4,620     57 %         0
+      admin.ds.BlackListMessageLogI
+                         1            1,600     20 %         0
+      admin.GroupsD
+                         1              112      1 %         0
+      admin.GroupsI
+                         1               64      1 %         0
+      admin.HistoryD
+                        31          222,860     88 %         0
+      admin.HistoryElementD
+                        35          253,004     89 %         0
+      admin.HistoryElementI
+                        22          123,252     69 %         0
+      admin.HistoryI
+                        19          111,416     72 %         0
+directory: d:\database\a3\
+Page: 2                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      admin.log.CargoExpressImportD
+                     4,695       34,308,124     90 %        48
+      admin.log.EDILogD
+                     2,728       17,590,224     79 %       736
+      admin.log.EDILogI
+                     6,745       42,623,780     77 %     5,018
+      admin.log.JobCostingXMLErrorsD
+                        71          516,520     89 %         0
+      admin.log.SoapAutoRequestVctD
+                     6,220       45,408,976     89 %         8
+      admin.log.SoapAutoRequestVctI
+                     2,293       14,888,915     80 %     1,990
+      admin.log.SoapBillOfLD341D
+                         1               36      0 %         0
+      admin.log.SoapCargoAg6B5ED
+                       918        6,723,284     90 %        38
+      admin.log.SoapWagonsVctD
+                    21,021      153,572,300     89 %     3,434
+      admin.log.SoapWagonsVctI
+                     9,325       58,068,992     76 %     3,883
+      admin.log.SoapWaybillVctD
+                     1,481       10,832,784     90 %        37
+      admin.MessageD
+                         1              160      2 %         0
+      admin.MessageI
+                         1               84      1 %         0
+      admin.RegisterStageD
+                         1              160      2 %         0
+      admin.RegisterStageI
+                         1              168      2 %         0
+      admin.secure.Resource2RoleD
+                        10           64,800     79 %         0
+      admin.secure.Resource2RoleI
+                         9           64,952     88 %         4
+      admin.secure.ResourceSysD
+                         7           44,808     78 %         0
+      admin.secure.ResourceSysI
+                         9           65,796     90 %         2
+      admin.secure.Role2RoleD
+                         1            2,332     29 %         0
+      admin.secure.Role2RoleI
+                         1            2,740     34 %         0
+      admin.secure.RoleSysD
+                         2           12,096     74 %         0
+      admin.secure.RoleSysI
+                         4           18,292     56 %         0
+      admin.secure.User2RoleD
+                        37          247,148     82 %         4
+      admin.secure.User2RoleI
+                        28          193,100     84 %        13
+      admin.SessionD
+                   374,964    2,528,000,928     83 %    40,503
+      admin.SessionEventD
+                         9           60,576     82 %         0
+      admin.SessionEventI
+                         3           16,316     67 %         0
+      admin.SessionI
+                    27,266      169,810,848     76 %    17,346
+directory: d:\database\a3\
+Page: 3                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      admin.SessionWindowD
+                   440,637    2,313,179,296     64 %    38,657
+      admin.SessionWindowI
+                   180,600    1,110,129,396     75 %    87,159
+      admin.signatures.CertificateD
+                        18          120,212     82 %         0
+      admin.signatures.CertificateI
+                         1              944     12 %         0
+      admin.StatisticsD
+                     6,243       45,455,624     89 %     2,761
+      admin.StatsD  22,463      163,469,936     89 %       336
+      admin.StatsI   5,397       39,627,528     90 %     2,886
+      admin.User2CompanyD
+                        74          517,312     86 %        13
+      admin.User2CompanyI
+                        52          293,740     69 %         0
+      admin.UserSettingsD
+                        22          126,024     70 %         0
+      admin.UserSettingsI
+                        11           83,492     93 %         3
+      admin.UserSysD
+                        47          278,200     73 %         7
+      admin.UserSysI
+                         4           25,692     79 %         0
+      aERR               1              432      5 %         0
+      AERR2              1              416      5 %         0
+      aGoods             1              284      3 %         0
+      amyglob            1               80      1 %         0
+      aOpCargoInTest
+                        12           75,768     77 %         0
+      asc                1              340      4 %         0
+      aterif             1               16      0 %         0
+      aterif2            1               16      0 %         0
+      au                 3           20,020     82 %         0
+      AutoUnpluging
+                     2,622       14,896,568     70 %         2
+      b11                1               32      0 %         0
+      b12                1               28      0 %         0
+      b13                1               24      0 %         0
+      b14                1               12      0 %         0
+      b15                1               12      0 %         0
+      badTS              2           11,108     68 %         0
+      bb                 1              200      2 %         0
+      bc                 1               28      0 %         0
+      BC                 1              128      2 %         0
+      BlackMetalExcelList
+                         7           46,621     82 %         2
+      c                  1            2,448     30 %         0
+      cacheAxFactures
+                        29          186,664     79 %         0
+      cacheAxFacturesWithDate
+                       621        3,743,796     74 %         0
+      CacheStream   34,945      284,967,857    100 %    21,243
+      CalcPrice      1,114        7,779,536     86 %         9
+      CancelReleasePermission
+                         1              516      6 %         0
+      cargo.ContainerD
+                     2,864       18,686,796     80 %         0
+directory: d:\database\a3\
+Page: 4                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      cargo.ContainerI
+                     6,168       44,585,168     89 %     3,233
+      cargo.history.DeletedClonesD
+                        39          279,000     88 %         3
+      cargo.history.DeletedClonesI
+                        28          194,420     85 %         3
+      cargo.history.DocLinesForEC7FD
+                       131          953,444     89 %        17
+      cargo.history.DocLinesForEC7FI
+                        45          308,192     84 %         7
+      cargo.history.ElementD
+                       590        4,312,596     90 %       197
+      cargo.name.Element2CarC908D
+                         1            5,172     63 %         0
+      cargo.name.Element2CarC908I
+                         1            6,712     82 %         0
+      cargo.name.Element2CargoSignD
+                         1              876     11 %         0
+      cargo.name.Element2CargoSignI
+                         1              920     11 %         0
+      cargo.name.ElementD
+                       588        4,133,868     86 %       297
+      cargo.name.ElementI
+                     1,055        6,363,079     74 %       319
+      cargo.name.SignD
+                         1              136      2 %         0
+      cargo.name.SignI
+                         1              192      2 %         0
+      cargo.SealD      204        1,323,544     79 %        11
+      cargo.SealI      280        1,917,352     84 %        24
+      cargo.SignD        1              368      5 %         0
+      cargo.SignI        1              600      7 %         0
+      cargo.SpecificD
+                         1              396      5 %         0
+      cargo.SpecificI
+                         1              612      7 %         0
+      cargo.UnitD  124,325      669,044,804     66 %     5,034
+      cargo.UnitI  310,559    1,912,096,052     75 %    71,277
+      cargoTypes         1              640      8 %         0
+      cat.cargo.CatalogueD
+                         1              400      5 %         0
+      cat.cargo.CatalogueI
+                         1              512      6 %         0
+      cat.Category2SignD
+                         3           21,288     87 %         0
+      cat.Category2SignI
+                         5           32,532     80 %         1
+      cat.CategoryD
+                        52          343,308     81 %        17
+      cat.CategoryI
+                       106          654,624     76 %        33
+      cat.CharacteristicD
+                     6,533       46,343,508     87 %       693
+      cat.CharacteristicI
+                    22,793      138,948,948     75 %     6,665
+      cat.garage.TypeOfRatesD
+                         1              124      2 %         0
+      cat.prr.JobMethodD
+                         1            3,536     43 %         0
+directory: d:\database\a3\
+Page: 5                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      cat.prr.JobMethodI
+                         1            7,112     87 %         0
+      cat.RuleD         19          119,364     77 %         3
+      cat.RuleI         82          514,484     77 %        34
+      cat.SignD          1              500      6 %         0
+      cat.SignI          1              380      5 %         0
+      cat.wagonout.TempTableD
+                         3           23,544     96 %         0
+      cc                54          388,076     88 %         0
+      ccc                1            5,544     68 %         0
+      ccc1               1               96      1 %         0
+      ChangeUnifiedWaybillState
+                       400        2,610,812     80 %         4
+      CheckContINFromVCT
+                         1            6,720     82 %         0
+      CheckContOutFromVCT
+                        47          256,816     67 %         0
+      CheckPreparedDocs
+                        48          294,664     75 %         0
+      CheckUnloadLine4Category
+                         1              268      3 %         0
+      CheckUnloadLine4LoadCategory
+                         1            1,908     23 %         0
+      CHReport          49          358,664     90 %        41
+      ClearCase          9           51,772     70 %         0
+      CNReport          52          309,080     73 %        17
+      ContainerMoveIn
+                    18,123      103,077,744     70 %        26
+      ContainerMoveOut
+                     3,965       22,224,264     69 %         0
+      ContainersLifeCycle
+                       665        4,232,924     78 %       656
+      CopyDocs         878        5,565,472     78 %        95
+      CreateAddLines4Auto
+                     6,306       36,147,968     70 %         3
+      CreateAddLines4Rw
+                     8,672       49,892,840     70 %        11
+      CreateAddLines4Unit
+                    19,902      115,229,492     71 %        38
+      CreateAddLines4Vessel
+                    11,543       67,268,388     71 %        13
+      CreateContainer
+                         1            3,768     46 %         0
+      createCosting
+                        25          143,864     70 %         0
+      CreateDocLines4Auto
+                     4,059       23,236,380     70 %         1
+      CreateDocLines4Rw
+                     3,188       18,317,532     70 %         1
+      CreateExamLine
+                     7,568       43,526,036     70 %         4
+      CreateForwarderLine
+                       121          882,940     89 %         0
+      CreateJobCosting4Vessel
+                         7           45,352     79 %         0
+      createPackDoc
+                    19,109      124,662,395     80 %     5,460
+      createPackDocNN
+                         1              108      1 %         0
+directory: d:\database\a3\
+Page: 6                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      CreatePrrLine4Unit
+                     1,673        9,480,284     69 %         2
+      CreatePrrLine4Vessel
+                     1,802       10,268,372     70 %         1
+      CreatePrrLineFromAuto
+                         1              200      2 %         0
+      CreatePrVessel
+                       706        4,106,500     71 %         0
+      CreateStor4Unit
+                     2,651       15,083,772     70 %         3
+      CreateStorLine4Auto
+                    34,842      207,102,288     73 %       589
+      CreateStorLine4Rw
+                    23,499      136,823,340     71 %       188
+      CreateStorLine4Unit
+                    21,660      135,552,228     77 %       153
+      CreateStorLine4Vessel
+                    14,253       84,876,628     73 %        57
+      CreateUnifiedWaybill
+                        10           66,272     81 %         3
+      CreateUnloadLine4Vessel
+                     4,838       28,047,404     71 %         2
+      CreateWaybill
+                         1              788     10 %         0
+      CreateWeightingLines4Unit
+                       237        1,379,552     71 %         0
+      CreatLine          1            1,644     20 %         0
+      CUSCAR             1               48      1 %         0
+      CustomExamLog
+                        31          221,684     88 %         0
+      CustomsControl
+                        63          453,724     88 %         0
+      customsReq        18          122,544     83 %         0
+      CustomsTmp         1            2,456     30 %         0
+      CVCommit          90          517,748     70 %         0
+      dataCheckOrderPos
+                         1              120      1 %         0
+      dbFormCalc4UnitUnload
+                         5           29,096     71 %         0
+      dbFormingCalculation4Unit
+                         3           18,048     74 %         0
+      dbg              875        5,383,108     75 %       387
+      dbgAccount        53          358,896     83 %         0
+      dbgAutoHack        1            7,856     96 %         0
+      dbgBrokenFirstUnit
+                         2            9,760     60 %         0
+      dbgCanSetRelease
+                     2,053       11,763,664     70 %         2
+      dbgGetEtranInvoice
+                   224,699    1,138,909,591     62 %    94,193
+      dbgGetEtranInvoiceListByPeriod
+                     6,893       41,234,313     73 %     1,208
+      dbgGetInvoiceingInStatus
+                     2,116       12,950,825     75 %       726
+      dbgGetRWInvoiceingIn
+                         2           11,164     68 %         0
+      dbgGetRWInvoiceingOut
+                         5           32,008     78 %         0
+directory: d:\database\a3\
+Page: 7                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      dbgIsConfStev
+                         1            2,168     27 %         0
+      dbgPrintBarCodeByColor
+                        34          210,700     76 %         0
+      dbgProxyFesco
+                     1,429        8,025,812     69 %         0
+      dbgScans           1            2,052     25 %         0
+      dbgSetContainerForwarderByVesse
+                       285        1,613,340     69 %         2
+      dbgSetStatusToLogItem
+                        49          358,972     90 %         0
+      dbgShifts          1            5,876     72 %         0
+      dbgsPrintTTNOutNew
+                         1               60      1 %         0
+      dbgsReceive        3           21,488     88 %         0
+      dbgsSendToAxapta
+                         6           31,244     64 %         0
+      dbgUnitErrors
+                         1            4,728     58 %         0
+      dbgUpdateSafetyOperation
+                       307        1,902,544     76 %         0
+      dbgw              19          133,404     86 %         0
+      dbgWB              1              108      1 %         0
+      dbsPrintDeliveryOrder
+                         1            1,780     22 %         0
+      dd                 1              324      4 %         0
+      dddrt              1               80      1 %         0
+      ddrt               1              176      2 %         0
+      ddt                1              192      2 %         0
+      debugSGP           1            1,388     17 %         0
+      DeepSee.Functions
+                         1            5,348     66 %         0
+      DeepSee.LastQuery
+                         1              144      2 %         0
+      DeepSee.PivotError
+                         1               80      1 %         0
+      delTempLine       50          361,780     89 %        42
+      do1Data          363        2,120,632     72 %        20
+      do1dbg            28          173,920     76 %        10
+      DO3                1            5,748     70 %         0
+      doc.calc.AxaptaBillingLinesD
+                       571        4,170,232     89 %       258
+      doc.calc.AxaptaBillingLinesI
+                       413        2,476,224     73 %         0
+      doc.calc.Category2TrF4A0D
+                         1            2,400     29 %         0
+      doc.calc.Category2TrF4A0I
+                         1            2,556     31 %         0
+      doc.calc.CommercialC480DD
+                         1            1,516     19 %         0
+      doc.calc.CommercialC480DI
+                         1            1,000     12 %         0
+      doc.calc.CommercialContractD
+                        36          259,972     88 %        16
+      doc.calc.CommercialContractI
+                        23          162,232     86 %         0
+      doc.calc.Contract2ContractD
+                         3           15,716     64 %         1
+directory: d:\database\a3\
+Page: 8                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      doc.calc.Contract2ContractI
+                         3           15,616     64 %         0
+      doc.calc.ImportBalanceLogD
+                     1,544       11,306,748     90 %       659
+      doc.calc.ImportBalanceLogI
+                     1,469       10,783,144     90 %       790
+      doc.calc.JobCostingWBGD
+                         1            4,464     55 %         0
+      doc.calc.JobCostingWBGI
+                         1            1,124     14 %         0
+      doc.calc.JobCostingWBGLineD
+                        40          301,144     92 %        18
+      doc.calc.StationOfTr1D61D
+                         1            1,564     19 %         0
+      doc.calc.StationOfTr1D61I
+                         1            1,672     20 %         0
+      doc.calc.TrainServiceD
+                         1              368      5 %         0
+      doc.calc.WaybillGara6158D
+                       742        5,426,360     90 %         0
+      doc.calc.WaybillGara6158I
+                       730        5,248,752     88 %        26
+      doc.calc.WaybillGarageD
+                     3,475       23,881,748     84 %       208
+      doc.calc.WaybillGarageI
+                     3,035       20,938,384     85 %       511
+      doc.calc.WaybillGarageLineD
+                       726        5,196,868     88 %        36
+      doc.calc.WaybillGarageLineI
+                       708        5,088,820     88 %       213
+      doc.contract.AgencyAgreementD
+                         3           21,868     89 %         0
+      doc.contract.AgencyAgreementI
+                         3           22,176     91 %         0
+      doc.contract.RailWayPAD
+                         1            1,920     24 %         0
+      doc.contract.RailWayPAI
+                         1              284      3 %         0
+      doc.contract.RailWayPAWagonsD
+                         9           63,680     87 %         2
+      doc.custom.DeclarationTypeD
+                         1            3,772     46 %         0
+      doc.custom.DeclarationTypeI
+                         1            2,184     27 %         0
+      doc.custom.TransportDocD
+                     7,039       48,685,160     85 %        25
+      doc.custom.TransportDocI
+                     3,121       21,865,064     86 %       649
+      doc.HeadD    198,205    1,383,648,328     86 %    17,979
+      doc.HeadI    873,036    5,323,959,301     75 %   241,733
+      doc.ledger.RadiationDetectionD
+                        68          467,736     84 %         0
+      doc.ledger.RadiationDetectionI
+                        16          116,036     89 %         0
+      doc.LineD    660,957    4,332,873,205     80 %   130,942
+      doc.LineI   3,514,614  21,376,573,160     75 %   1,105,058
+      doc.oper.ContainerWeCA98D
+                       102          742,596     89 %         0
+directory: d:\database\a3\
+Page: 9                           GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      doc.oper.ContainerWeCA98I
+                        41          256,916     77 %         6
+      doc.out.BillOfLadingD
+                         1               32      0 %         0
+      doc.out.BillOfLadingI
+                         1               28      0 %         0
+      doc.out.BillOfLadingLineD
+                         1               36      0 %         0
+      doc.out.BillOfLadingLineI
+                         1               32      0 %         0
+      doc.out.CustomBroke6020D
+                         7           51,452     90 %         5
+      doc.out.RailwayBillEtranDataD
+                  2,090,932   9,942,911,909     58 %   873,294
+      doc.out.RailwayBillEtranDataI
+                     3,236       23,562,264     89 %       635
+      doc.payments.CommercialC4D9ED
+                         6           42,340     86 %         0
+      doc.payments.CommercialC4D9EI
+                         6           38,724     79 %         0
+      doc.reques1732.AdvanceWh2R60F6D
+                         1            4,872     60 %         0
+      doc.reques1732.Wh2RwInvoic32D1D
+                     3,471       17,973,944     63 %       200
+      doc.reques1732.Wh2RwInvoic32D1I
+                     3,152       20,480,244     80 %       435
+      doc.reques8685.ContainerWeFDCED
+                        25          179,940     88 %         2
+      doc.reques8685.ContainerWeFDCEI
+                        25          141,464     69 %         0
+      doc.requesE26C.PlaneUnstafBE75D
+                        27          192,692     87 %        15
+      doc.request.load.AdvanceWh2RwD
+                         1            6,760     83 %         0
+      doc.request.load.Wh2RwInvoiceD
+                        27          197,840     90 %         0
+      doc.request.load.Wh2RwInvoiceI
+                        35          227,360     80 %         0
+      doc.request.load.Wh2RwWagonD
+                       656        4,693,428     88 %       245
+      doc.request.load.Wh2RwWagonI
+                       258        1,869,316     89 %       124
+      doc.request1732.Wh2RwOwnerPosD
+                       235        1,693,656     88 %        19
+      doc.request1732.Wh2RwOwnerPosI
+                       168        1,219,556     89 %        14
+      doc.requestB231.AutoRequestPIND
+                        84          597,412     87 %         7
+      doc.requestB231.AutoRequestPINI
+                        46          326,636     87 %        11
+      doc.SignatureD
+                    39,532      257,457,316     80 %     1,845
+      doc.SignatureI
+                       947        6,683,536     86 %       253
+      doc.VGMD          43          313,676     89 %         0
+      doc.VGMI          13           80,008     75 %         0
+      doSended          54          394,148     89 %         0
+      edi.imp.BaplieD
+                         5           36,800     90 %         0
+directory: d:\database\a3\
+Page: 10                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      edi.imp.BaplieI
+                         1            6,892     84 %         0
+      edi.imp.BaplieLineD
+                     1,886       13,661,952     89 %       738
+      edi.imp.BaplieLineI
+                        97          709,152     90 %        54
+      edi.imp.CuscarCargoD
+                       162        1,174,000     89 %         4
+      edi.imp.CuscarCargoI
+                        19          134,348     87 %         0
+      edi.imp.CuscarContainerD
+                     1,708       12,505,072     90 %       659
+      edi.imp.CuscarContainerI
+                       314        2,280,944     89 %       113
+      edi.imp.CuscarD
+                        31          220,548     87 %         0
+      edi.imp.CuscarI
+                         8           47,596     73 %         0
+      edi.imp.CuscarLineD
+                    13,718       83,470,196     75 %     1,668
+      edi.imp.CuscarLineI
+                       374        2,739,408     90 %        35
+      edi.imp.DestinationD
+                         1              540      7 %         0
+      edi.imp.DestinationI
+                         1              316      4 %         0
+      edi.imp.DestinationLineD
+                        16          115,552     88 %        10
+      edi.imp.DestinationLineI
+                         5           32,992     81 %         1
+      edi.imp.LoadPlanD
+                         1            2,464     30 %         0
+      edi.imp.LoadPlanI
+                         1              488      6 %         0
+      edi.imp.LoadPlanLineD
+                        13           88,476     83 %         0
+      edi.imp.LoadPlanLineI
+                         1            2,876     35 %         0
+      env.Bank.AccountStatementsD
+                         1            1,528     19 %         0
+      env.Bank.RaiffeisenBa3AAD
+                       192        1,349,360     86 %       115
+      env.Bank.RaiffeisenBa3AAI
+                         3           20,452     84 %         1
+      env.Bank.RaiffeisenBankHeaderD
+                         9           58,884     80 %         0
+      env.ExchRateD
+                         1            1,164     14 %         0
+      env.ExchRateI
+                         1            1,428     17 %         0
+      env.post.BoxLineD
+                     5,424       41,215,072     93 %     1,727
+      env.post.BoxLineI
+                     9,037       64,785,752     88 %     3,864
+      env.post.MessageD
+                       124          871,051     86 %        16
+      env.post.MessageI
+                        19          140,100     90 %         5
+directory: d:\database\a3\
+Page: 11                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      env.post.rec26F6.Company2GroupD
+                         2            9,764     60 %         0
+      env.post.rec26F6.Company2GroupI
+                         3           17,328     71 %         0
+      env.post.receiver.AbstractD
+                        27          191,948     87 %         7
+      env.post.receiver.AbstractI
+                        17          121,104     87 %         6
+      env.post.receiver.User2GroupD
+                         7           45,572     80 %         0
+      env.post.receiver.User2GroupI
+                        13           77,760     73 %         4
+      env.post.Receiver2MessageD
+                        37          267,104     88 %        12
+      env.post.Receiver2MessageI
+                        35          246,756     86 %         7
+      env.RailWay.CarNSIfromETRAND
+                     4,695       33,320,504     87 %       830
+      env.RailWay.CarNSIfromETRANI
+                       267        1,662,512     76 %         2
+      env.RailWay.ContainerD
+                     1,512       10,997,504     89 %       541
+      env.RailWay.ContainerI
+                       877        5,549,836     78 %       648
+      env.RailWay.InvoiceFiledCarsD
+                         3           18,540     76 %         0
+      env.RailWay.TrainD
+                     2,412       17,481,400     89 %     1,180
+      env.RailWay.TrainI
+                       302        2,212,852     90 %       183
+      env.RailWay.VagonD
+                     3,691       21,307,736     71 %     2,635
+      env.RailWay.VagonI
+                       808        5,422,540     82 %       636
+      Err                1              120      1 %         0
+      errFormCalc4UnitStor
+                         1              648      8 %         0
+      ERRORS            31          214,504     85 %        21
+      errsLoadAndSend
+                         1              116      1 %         0
+      ExcelList         10           71,479     88 %         6
+      ExcelList2        27          194,443     88 %         7
+      ff                 1              728      9 %         0
+      ffff222            2            8,312     51 %         0
+      FindCategoryIdByRule
+                     6,487       37,099,620     70 %         3
+      FindContainerInBase
+                    16,586      100,759,600     74 %     2,551
+      FindContainerTypeSize
+                       498        2,838,004     70 %         0
+      fp                 6           35,904     73 %         0
+      freqViewing        1               36      0 %         0
+      GetAddRate         5           26,300     64 %         0
+      GetAddRates   39,995      232,320,764     71 %     1,187
+      GetCarNSI          1            2,088     26 %         0
+      GetCategory   30,521      171,079,688     69 %        50
+      GetContainerReturnDate
+                     2,553       14,430,264     69 %         0
+directory: d:\database\a3\
+Page: 12                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      Getcontrw        119          664,288     68 %         1
+      GetCustomsDocsFromMail
+                        16          110,260     84 %        10
+      GetDir             1              124      2 %         0
+      GetDirecti         1               28      0 %         0
+      GetDirectionAndCreateDocument
+                     7,347       41,941,376     70 %         7
+      GetEndContractBalanceFromAx
+                         1            4,796     59 %         0
+      GetEndDate4Unit
+                         1            1,172     14 %         0
+      GetEtranInvoices
+                       123          744,420     74 %         0
+      GetFactureNumber
+                         1            1,932     24 %         0
+      GetLoadRatesByContract
+                    10,739       61,926,508     71 %        13
+      GetNextNumber
+                         1            6,472     79 %         0
+      GetReceivedGoodsFetch
+                       246        1,454,608     72 %         1
+      GetReleaseDate
+                       283        2,075,956     90 %        77
+      GetUnloadRateByContract
+                     5,272       31,483,432     73 %        26
+      ggg              127          785,228     76 %         2
+      goodTS             1            5,388     66 %         0
+      GSendInvoiceToProduction
+                         1               68      1 %         0
+      h                 25          169,792     83 %        13
+      ImportFromCargoExpress
+                         1               40      0 %         0
+      InsertAxaptaPortExpressDV
+                         1            3,984     49 %         0
+      InvData           18          109,404     74 %        15
+      isc.axapta.CustomsReportD
+                       196        1,447,412     90 %       189
+      ISC.SASchema     104          765,288     90 %        47
+      ISC.SOAPClientWizard
+                         1            6,296     77 %         0
+      isc.solvo.ConfigD
+                         1            6,268     77 %         0
+      isc.solvo.ConfigI
+                         1            2,688     33 %         0
+      isc.solvo.Engine
+                         1              136      2 %         0
+      isc.solvo.QueueD
+                         1               28      0 %         0
+      isc.vct.ConfigD
+                         1            1,528     19 %         0
+      isc.vct.ConfigI
+                         1              344      4 %         0
+      isc.vmtp2vctD
+                     5,597       40,357,792     88 %     5,581
+      isc.vmtp2vctI
+                       856        6,279,416     90 %       853
+      jjjjjjjjjjjjj
+                         1              676      8 %         0
+directory: d:\database\a3\
+Page: 13                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      KT2RWUnits        10           60,328     74 %         0
+      lastErrorSendDate
+                         1               28      0 %         0
+      lastErrorSendTime
+                         1               28      0 %         0
+      LastTimeCarNSIStatusFromETRAN
+                         1               52      1 %         0
+      len              305        2,237,928     90 %        89
+      line               2           14,016     86 %         0
+      lineIds            1               52      1 %         0
+      LinkCargo        200        1,154,864     71 %         1
+      LOCK               1              484      6 %         0
+      locksCounter       1               44      1 %         0
+      lt                 1                8      0 %         0
+      maillog            2           14,940     91 %         0
+      mcqTemp        1,112        7,887,051     87 %       837
+      mmm1               1               68      1 %         0
+      MotorWaybill       1              676      8 %         0
+      mqh               69          399,958     71 %        20
+      msg.Message2UserD
+                         1            6,856     84 %         0
+      msg.Message2UserI
+                         2            8,420     52 %         0
+      msg.MessageD       1            6,256     77 %         0
+      msg.MessageI       1            1,128     14 %         0
+      my                 1              136      2 %         0
+      myg                1               68      1 %         0
+      myglob             1              836     10 %         0
+      myglob111          1               20      0 %         0
+      myglobK            1               44      1 %         0
+      mymy               1               60      1 %         0
+      Mysss              1               60      1 %         0
+      MyTestCheckTest
+                         1              416      5 %         0
+      n                  1               44      1 %         0
+      NULLVGM            1            2,780     34 %         0
+      oddCOM        17,941      106,308,472     73 %     4,515
+      oddd             158        1,016,444     79 %       135
+      oddDEF         2,106       12,283,863     71 %       597
+      oddDEP            35          214,616     75 %         0
+      oddDEPtemp         4           18,656     57 %         0
+      oddEXT             2            9,080     56 %         0
+      oddEXTR        1,301        7,616,947     72 %       202
+      oddMAP         2,330       14,302,548     75 %       409
+      oddMETA           30          188,161     77 %        13
+      oddPROC          401        2,403,600     73 %        43
+      oddPROJECT         1            5,268     65 %         0
+      oddSQL           396        2,427,148     75 %        26
+      oddStudioMenu
+                         1              432      5 %         0
+      oddTSQL          197        1,160,852     72 %         0
+      oddXML            10           59,380     73 %         0
+      olapExpInfo        1            2,664     33 %         0
+      olapExpInfoCont
+                         1              116      1 %         0
+      olapExpInfoForw
+                         1              116      1 %         0
+      olapExpInfoGoods
+                         1              120      1 %         0
+directory: d:\database\a3\
+Page: 14                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      olapExportInfo
+                         1            1,928     24 %         0
+      OutLog            23          122,688     65 %         0
+      ProcessBillInfo
+                       170          955,872     69 %         6
+      ProcessDirectWayWithDRT
+                         1              424      5 %         0
+      ProcessWaybill
+                         8           47,608     73 %         0
+      ProximaWeighting
+                   117,064      727,525,808     76 %    63,775
+      proxy.vct.ExchangeConfigD
+                         1              248      3 %         0
+      proxy.vct.ExchangeQueueD
+                         1               36      0 %         0
+      proxy.WhInspectionD
+                         1            1,060     13 %         0
+      proxy.WhInspectionI
+                         1              296      4 %         0
+      proxy.WhInspectionLineD
+                         1              136      2 %         0
+      proxy.WhInspectionLineI
+                         1              116      1 %         0
+      PrrSql            80          478,236     73 %         0
+      qwerty             1              224      3 %         0
+      rb.alloc.BerthD
+                         1              408      5 %         0
+      rb.alloc.BerthI
+                         1              300      4 %         0
+      rb.alloc.RailwayFrontD
+                         1            4,132     51 %         0
+      rb.alloc.RailwayFrontI
+                         1            2,228     27 %         0
+      rb.alloc.TrackD
+                         1              952     12 %         0
+      rb.alloc.TrackI
+                         1              996     12 %         0
+      rb.auto.op.ActionD
+                         1              560      7 %         0
+      rb.auto.op.BillsD
+                       104          742,768     87 %        17
+      rb.auto.op.BillsI
+                       115          735,664     78 %        25
+      rb.auto.op.ObjectD
+                         1              948     12 %         0
+      rb.AutoVisitInfoD
+                         1              868     11 %         0
+      rb.AutoVisitInfoI
+                         1              452      6 %         0
+      rb.ContainerDestinationD
+                         1              244      3 %         0
+      rb.ContainerDestinationI
+                         1              240      3 %         0
+      rb.ContainerOwnerD
+                         1            2,340     29 %         0
+      rb.ContainerOwnerI
+                         1            2,208     27 %         0
+      rb.ContainerPartsD
+                         1              920     11 %         0
+directory: d:\database\a3\
+Page: 15                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      rb.ContainerPrefixD
+                         6           37,440     76 %         0
+      rb.ContainerPrefixI
+                         9           62,900     86 %         1
+      rb.ContractStateD
+                         1              184      2 %         0
+      rb.ContractTypeD
+                         1              124      2 %         0
+      rb.control.ModeD
+                         1               60      1 %         0
+      rb.control.PostD
+                         1              444      5 %         0
+      rb.control.PostI
+                         1              400      5 %         0
+      rb.CurrencyD       1              172      2 %         0
+      rb.CurrencyExchRateD
+                         2           12,868     79 %         0
+      rb.CurrencyExchRateI
+                         1            7,372     90 %         0
+      rb.custom.CustomsCont92EAD
+                         1            1,176     14 %         0
+      rb.custom.CustomsControlTypeD
+                         1               88      1 %         0
+      rb.custom.CustomsControlTypeI
+                         1              100      1 %         0
+      rb.custom.FormatVersionD
+                         1            1,428     17 %         0
+      rb.custom.PostD
+                        21          148,364     87 %         3
+      rb.custom.PostI
+                         9           65,508     89 %         1
+      rb.custom.TypeOfExamD
+                         1              140      2 %         0
+      rb.custom.TypeOfExamI
+                         1              172      2 %         0
+      rb.DangerousClassD
+                         1              380      5 %         0
+      rb.geo.CountryD
+                         2           11,292     69 %         0
+      rb.geo.CountryI
+                         2           11,288     69 %         0
+      rb.geo.PortD      64          448,536     86 %         5
+      rb.geo.PortI     101          740,416     90 %        44
+      rb.geo.RegionD
+                         1            1,016     12 %         0
+      rb.geo.RegionI
+                         1            1,420     17 %         0
+      rb.MetalSizeD
+                         3           20,592     84 %         0
+      rb.MetalSizeI
+                         3           16,016     65 %         0
+      rb.MetalSortD
+                         1            3,376     41 %         0
+      rb.MetalSortI
+                         1            3,228     40 %         0
+      rb.NotesD          1              560      7 %         0
+      rb.oil.ClientAddressD
+                         1               32      0 %         0
+directory: d:\database\a3\
+Page: 16                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      rb.oil.ClientD
+                         1            4,304     53 %         0
+      rb.oil.ClientI
+                         1            6,324     77 %         0
+      rb.oil.DensityTempE8F2D
+                         1            1,148     14 %         0
+      rb.oil.DensityTempE8F2I
+                         1              828     10 %         0
+      rb.OilDensityD
+                         4           26,300     81 %         0
+      rb.OilDensityI
+                         3           19,456     79 %         0
+      rb.OilFlashPointD
+                         1            1,572     19 %         0
+      rb.OilFlashPointI
+                         1            1,296     16 %         0
+      rb.OilViscosityD
+                         1              344      4 %         0
+      rb.OilViscosityI
+                         1              280      3 %         0
+      rb.org.AutoCompanyD
+                         1            6,884     84 %         0
+      rb.org.AutoCompanyI
+                         2           10,708     66 %         0
+      rb.org.AutoCompanyPartnerD
+                         1            5,036     62 %         0
+      rb.org.AutoCompanyPartnerI
+                         1            5,712     70 %         0
+      rb.org.BankD       1              836     10 %         0
+      rb.org.BankI       1              860     11 %         0
+      rb.org.BearerD
+                       414        3,024,468     89 %        56
+      rb.org.BearerI
+                       509        3,745,308     90 %       101
+      rb.org.Client2PortD
+                        70          509,968     89 %         9
+      rb.org.Client2PortI
+                        73          524,552     88 %        18
+      rb.org.Client2StationD
+                       815        5,975,388     90 %       572
+      rb.org.Client2StationI
+                       818        5,995,392     90 %       335
+      rb.org.ClientAddressD
+                        27          192,500     87 %         0
+      rb.org.ClientAddressI
+                        30          224,316     92 %         9
+      rb.org.ClientD
+                       255        1,859,668     89 %        62
+      rb.org.ClientI
+                       362        2,596,236     88 %        88
+      rb.org.DepartmentD
+                         1            2,328     29 %         0
+      rb.org.DepartmentI
+                         1            1,064     13 %         0
+      rb.org.Forw2AutoCompanyD
+                        28          200,416     88 %         4
+      rb.org.Forw2AutoCompanyI
+                         8           51,600     79 %         0
+directory: d:\database\a3\
+Page: 17                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      rb.org.Forw2BearerD
+                         7           49,752     87 %         0
+      rb.org.Forw2BearerI
+                         2           15,328     94 %         0
+      rb.org.RailwayPayerD
+                         1            7,196     88 %         0
+      rb.org.RailwayPayerI
+                         1            5,804     71 %         0
+      rb.org.ReceiverAddressD
+                     2,514       18,272,660     89 %     1,146
+      rb.org.ReceiverAddressI
+                     2,650       19,342,100     89 %       912
+      rb.org.ReceiverByOrderAddressD
+                         1            1,492     18 %         0
+      rb.org.ReceiverByOrderAddressI
+                         1            2,176     27 %         0
+      rb.org.ReceiverByOrderD
+                         1            1,400     17 %         0
+      rb.org.ReceiverByOrderI
+                         1            1,588     19 %         0
+      rb.org.ReceiverD
+                     2,736       15,607,456     70 %         3
+      rb.org.ReceiverFromCalcD
+                         1            1,116     14 %         0
+      rb.org.ReceiverFromCalcI
+                         1            1,196     15 %         0
+      rb.org.ReceiverI
+                     4,491       27,710,016     76 %     2,142
+      rb.org.ShipOwnerD
+                         1               28      0 %         0
+      rb.org.ShipperD
+                        18          130,472     89 %         6
+      rb.org.ShipperI
+                        22          159,728     89 %         8
+      rb.rtk.CardD       1              116      1 %         0
+      rb.rtk.CardI       1              144      2 %         0
+      rb.rtk.LeavingTypeD
+                         1              120      1 %         0
+      rb.rtk.LeavingTypeI
+                         1              112      1 %         0
+      rb.rtk.SchemeD
+                         1              840     10 %         0
+      rb.rtk.SchemeI
+                         1            1,288     16 %         0
+      rb.rtk.StoringTypeD
+                         1               52      1 %         0
+      rb.rtk.StoringTypeI
+                         1               60      1 %         0
+      rb.rtk.UnloadMethodD
+                         1              160      2 %         0
+      rb.rtk.UnloadMethodI
+                         1              292      4 %         0
+      rb.rw.CarOperatorD
+                         3           17,320     71 %         0
+      rb.rw.CarOperatorI
+                         4           23,444     72 %         0
+      rb.rw.DFACCIDENTCARDD
+                         3           15,696     64 %         0
+directory: d:\database\a3\
+Page: 18                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      rb.rw.DFACCIDENTCARDI
+                         1            3,748     46 %         0
+      rb.rw.PARAGRAFD
+                         1            2,336     29 %         0
+      rb.rw.PARAGRAFI
+                         1              260      3 %         0
+      rb.rw.RailwayD
+                         1            1,036     13 %         0
+      rb.rw.RailwayI
+                         1            1,536     19 %         0
+      rb.rw.RailwayStationD
+                        71          415,880     72 %        39
+      rb.rw.RailwayStationI
+                        26          185,964     88 %        11
+      rb.rw.SendKindD
+                         1               96      1 %         0
+      rb.rw.SendKindI
+                         1              156      2 %         0
+      rb.rw.SpeedD       1               88      1 %         0
+      rb.rw.SpeedI       1              120      1 %         0
+      rb.rw.STANS2PARAD
+                       194        1,414,052     89 %        15
+      rb.rw.STANS2PARAI
+                        38          274,492     88 %         3
+      rb.SealTypeD       1               64      1 %         0
+      rb.SealTypeI       1               80      1 %         0
+      rb.series.DocumentTypeD
+                         1            1,500     18 %         0
+      rb.series.DocumentTypeI
+                         1              748      9 %         0
+      rb.series.NumberSequencesD
+                         1            2,044     25 %         0
+      rb.series.NumberSequencesI
+                         1            1,716     21 %         0
+      rb.TechnicalDefectsD
+                         1              260      3 %         0
+      rb.TechnicalDefectsI
+                         1              360      4 %         0
+      rb.TransitReturnTypeD
+                         1              400      5 %         0
+      rb.TransitReturnTypeI
+                         1              336      4 %         0
+      rb.TransportationTypeD
+                         1              580      7 %         0
+      rb.TransportationTypeI
+                         1              156      2 %         0
+      rb.ts.TimeSlotByCompanyD
+                         1              356      4 %         0
+      rb.ts.TimeSlotByCompanyI
+                         1              560      7 %         0
+      rb.ts.TimeSlotByCompanyStevD
+                         1              192      2 %         0
+      rb.ts.TimeSlotByCompanyStevI
+                         1              304      4 %         0
+      rb.ts.TimeSlotByDateD
+                         1            2,180     27 %         0
+      rb.ts.TimeSlotByDateI
+                         1            3,404     42 %         0
+directory: d:\database\a3\
+Page: 19                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      rb.ts.TimeSlotByDateStevD
+                         1              464      6 %         0
+      rb.ts.TimeSlotByDateStevI
+                         1              508      6 %         0
+      rb.ts.TimeSlotD
+                         1              204      2 %         0
+      rb.ts.TimeSlotI
+                         1              132      2 %         0
+      rb.UnitOfMeasurementD
+                         1            1,056     13 %         0
+      rb.WrappingD       1              788     10 %         0
+      rb.WrappingEtranD
+                         1            1,676     21 %         0
+      rb.WrappingI       1              632      8 %         0
+      rBACKUP       32,115      196,410,787     75 %    24,067
+      rc                 1            5,436     67 %         0
+      replUnit          22          157,348     88 %         0
+      report1            1               56      1 %         0
+      ReportData2309
+                       213        1,295,800     75 %       180
+      ReportData2708
+                        22          141,400     79 %         0
+      RepSVHUnit         3           14,688     60 %         0
+      res.docker.CrewD
+                         1            4,472     55 %         0
+      res.docker.CrewI
+                         1              496      6 %         0
+      res.docker.OperationD
+                        68          490,452     88 %         2
+      res.docker.OperationI
+                        57          373,468     80 %         4
+      res.docker.OperationTypeD
+                         1               76      1 %         0
+      res.docker.OperationTypeI
+                         1               84      1 %         0
+      res.docker.Person2ShifBD62D
+                    10,773       78,673,128     89 %     8,221
+      res.docker.Person2ShifBD62I
+                     1,544       11,062,784     88 %       250
+      res.docker.Person2ShiftD
+                     4,164       24,806,640     73 %     2,269
+      res.docker.Person2ShiftI
+                     1,098        7,806,044     87 %       214
+      res.docker.PersonD
+                        27          176,324     80 %        10
+      res.docker.PersonI
+                        17          114,476     82 %         4
+      res.docker.Premium2PersonD
+                       179        1,113,376     76 %         4
+      res.docker.Premium2PersonI
+                        47          349,184     91 %         5
+      res.docker.PremiumD
+                         1            5,072     62 %         0
+      res.docker.ShiftD
+                       495        3,652,360     90 %        64
+      res.docker.ShiftI
+                       120          849,756     87 %        27
+      res.docker.WorkTypeD
+                         1               76      1 %         0
+directory: d:\database\a3\
+Page: 20                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      res.docker.WorkTypeI
+                         1              104      1 %         0
+      rINDEX           264        1,477,240     69 %         2
+      rINDEXCLASS      299        1,645,080     67 %         3
+      rINDEXEXT         61          361,112     73 %        11
+      rINDEXSQL         13           82,404     78 %         0
+      rMAC             124          640,184     63 %        38
+      rMACSAVE       2,696       15,906,448     72 %       977
+      rMAP           2,764       16,615,364     74 %       553
+      rOBJ          40,545      268,922,632     81 %     9,592
+      ROUTINE       19,382      117,841,150     74 %     8,018
+      Rw2SeaReport   1,034        6,890,264     82 %     1,030
+      SaveExamResults
+                     2,862       16,522,208     71 %         3
+      SaveLine      32,542      220,204,528     83 %       200
+      SavePluginInfo
+                       868        4,856,004     69 %         0
+      scan               1            1,784     22 %         0
+      sCanAddContainer
+                     4,436       24,511,384     68 %         3
+      ScanAnalysisPrcess
+                       127          786,008     76 %        25
+      sCheckNomenclature
+                    10,995       68,319,608     76 %        20
+      Sea2RwReport       7           45,076     79 %         5
+      SendReleasePermissionToVCT
+                       258        1,491,256     71 %         0
+      SendReleaseToVct
+                        79          451,588     70 %         0
+      SendToAxapta     627        3,889,772     76 %       254
+      sendToAxaptaParam
+                        54          377,676     86 %         0
+      SetContainerAutoOutCheck
+                     3,379       19,295,660     70 %         8
+      SetContainerCustomCheck
+                         1              372      5 %         0
+      SetContainerCustomCheckIn
+                     1,975       11,235,132     70 %         0
+      SetContainerCustomReturn
+                       113          743,868     81 %         0
+      SetContainerDataChanges
+                     1,452        8,240,208     70 %         0
+      SetContainerDataChanges2
+                        11           56,868     63 %         0
+      SetContainerToSeaMove
+                    13,390       75,936,004     69 %         1
+      SetContainerToSeaMove2
+                       578        3,336,540     71 %         3
+      SetDocAcceptanceDate
+                     7,221       52,877,272     90 %       239
+      SetOpsAcceptDate
+                       208        1,061,336     63 %        14
+      SetSeals       1,132        6,565,000     71 %         2
+      SetTallymanRWDischarge
+                     9,286       52,586,516     69 %         2
+      sh                 1            6,380     78 %         0
+      Shift             95          694,940     90 %         0
+      SmtpTrace          1            2,468     30 %         0
+directory: d:\database\a3\
+Page: 21                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      soap.clien9B7D.LoadingOrde6420D
+                         4           30,120     92 %         0
+      soap.clien9B7D.ResponseOfL416CD
+                        17          120,776     87 %         0
+      soapVkt            6           41,100     84 %         4
+      soapVkt2           3           19,016     78 %         1
+      sPrintBarCode
+                        18          106,412     72 %         1
+      sPrintDelivery
+                         1              224      3 %         0
+      sPrintRequirements
+                       994        5,681,840     70 %        23
+      sql                1               96      1 %         0
+      sqlDeleteClone
+                         1            5,092     62 %         0
+      sqlGetOutContainersInfo
+                         1            2,152     26 %         0
+      sqlInsertHead
+                    48,214      304,129,861     77 %       933
+      sqlInsertHeadShipLoad
+                       768        4,823,036     77 %        11
+      sqlInsertHeadVCT
+                    18,853      109,744,700     71 %        68
+      sSendToAxapta
+                       150          950,272     78 %         0
+      sSetTariff         1              412      5 %         0
+      stevts            14          100,632     88 %        12
+      storRateCheck
+                         4           18,912     58 %         0
+      storRateCheck1
+                         2            9,564     59 %         0
+      str                1            2,280     28 %         0
+      support.App2UserD
+                         5           28,840     71 %         0
+      support.App2UserI
+                         5           33,800     83 %         0
+      support.ApplicationD
+                         1              188      2 %         0
+      support.ApplicationI
+                         1              268      3 %         0
+      SYS                1            1,236     15 %         0
+      sys.ConfigD        4           19,220     59 %         0
+      sys.edi.coarrAFA8.InfoStockingD
+                        20          137,068     84 %         4
+      sys.edi.coarrAFA8.InfoStockingI
+                         6           28,708     59 %         0
+      sys.edi.codecC9BA.InfoStockingD
+                       286        1,906,060     82 %        69
+      sys.edi.codecC9BA.InfoStockingI
+                        15           97,376     80 %         0
+      sys.licenses.UsingStatisticD
+                       239        1,747,540     90 %        18
+      sys.licenses.UsingStatisticI
+                       305        1,803,704     72 %        33
+      sys.release.Category2RoleD
+                         1            1,040     13 %         0
+      sys.release.Category2RoleI
+                         1            1,112     14 %         0
+directory: d:\database\a3\
+Page: 22                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      sys.release.ChangeCategoryD
+                         1              272      3 %         0
+      sys.release.ChangeCategoryI
+                         1              400      5 %         0
+      sys.release.ChangeD
+                        58          412,000     87 %        26
+      sys.release.ChangeI
+                        21          151,432     88 %         6
+      sys.release.ChangeTypeD
+                         1              108      1 %         0
+      sys.release.ChangeTypeI
+                         1              152      2 %         0
+      sys.release.PerusalLineD
+                        10           70,528     86 %         0
+      sys.release.VersionD
+                         1            1,648     20 %         0
+      sys.release.VersionI
+                         1              916     11 %         0
+      sys.reports.DRTD
+                         1            7,084     87 %         0
+      sys.reports.DRTI
+                         1            5,640     69 %         0
+      sys.reports.FITContainersD
+                       390        2,857,288     90 %         0
+      sys.reports.FITContainersI
+                       198        1,097,652     68 %         1
+      sys.reports.OldStockD
+                        31          222,832     88 %         4
+      sys.reports.ProcessD
+                    58,077      421,510,915     89 %    19,619
+      sys.ScanAnalysisD
+                    67,863      357,451,701     65 %    27,270
+      sys.ScanAnalysisI
+                        56          366,364     80 %        16
+      sys.Setting4ForwarderD
+                         1               96      1 %         0
+      sys.xch.data.ProximaWeightingD
+                       294        2,177,676     91 %        82
+      sys.xch.data.ProximaWeightingI
+                       114          689,460     74 %        79
+      sys.xch.vc2DF5.VesselGateODF42D
+                       673        4,965,144     90 %       173
+      sys.xch.vc2DF5.VesselGateODF42I
+                       383        2,811,376     90 %       120
+      SysConfig          1               68      1 %         0
+      SysStatus          1               88      1 %         0
+      tariff.ContractD
+                         1               28      0 %         0
+      tariff.CostD      45          323,756     88 %         0
+      tariff.CostI      66          468,128     87 %        10
+      tariff.InfoD       1               48      1 %         0
+      tariff.ReleaseD
+                     2,502       18,571,184     91 %       113
+      tariff.ReleaseI
+                     2,842       17,449,284     75 %       764
+      tariff.ReleaseRequ9800D
+                         1              336      4 %         0
+      tariff.ReleaseRequ9800I
+                         1              336      4 %         0
+directory: d:\database\a3\
+Page: 23                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      tariff.ReleaseRequestD
+                        63          444,924     87 %         0
+      tariff.ReleaseRequestI
+                        39          247,072     78 %         2
+      tariff.rw.ByAgentFeeD
+                         1            2,520     31 %         0
+      tariff.rw.ByAgentFeeI
+                         1            2,276     28 %         0
+      tariff.rw.ByContainerD
+                         2           11,200     69 %         0
+      tariff.rw.ByContainerFeeD
+                         2            8,616     53 %         0
+      tariff.rw.ByContainerFeeI
+                         1            6,244     76 %         0
+      tariff.rw.ByContainerI
+                         2           14,580     89 %         0
+      tariff.rw.ByRailwayServiceFeeD
+                         1               96      1 %         0
+      tariff.rw.ByRailwayServiceFeeI
+                         1              164      2 %         0
+      tariff.rw.ByWagonD
+                         1              388      5 %         0
+      tariff.rw.ByWagonI
+                         1              372      5 %         0
+      tariff.ServiceD
+                        30          161,892     66 %         0
+      tariff.ServiceI
+                        10           63,072     77 %         0
+      tariff.vct.TechSchemeD
+                         4           24,772     76 %         0
+      tariff.vct.TechSchemeI
+                         5           32,776     80 %         1
+      tariff.vct.WorkTypeD
+                         1              632      8 %         0
+      tariff.vct.WorkTypeI
+                         1              836     10 %         0
+      teata              1               76      1 %         0
+      temp               1            1,580     19 %         0
+      temp.a             1               80      1 %         0
+      temp.b           548        3,082,036     69 %         0
+      temp.c             1               16      0 %         0
+      temp.ci            4           23,832     73 %         0
+      temp.co            3           20,408     83 %         0
+      temp.fw           24          171,080     87 %         3
+      temp.i             3            9,164     37 %         1
+      temp.LinkCargo
+                         5           31,272     77 %         0
+      temp.RenderLinks
+                         1               28      0 %         0
+      temp.RenderUnit
+                         1               28      0 %         0
+      temp.RenderUnitError
+                         1               32      0 %         0
+      temp.units         3           15,604     64 %         1
+      tempsc             1               16      0 %         0
+      test               1            1,220     15 %         0
+      TestRebuildIndices
+                        15           91,316     75 %         4
+directory: d:\database\a3\
+Page: 24                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      TestScan           2           11,032     68 %         0
+      TESTSD            21          103,508     60 %         9
+      TESTSERVICE        1               68      1 %         0
+      testtest           3           18,972     77 %         0
+      testTxt            4           23,722     73 %         1
+      tmp                1              144      2 %         0
+      tmpINN           164        1,045,792     78 %         0
+      tmpiso        16,512       95,303,785     71 %     1,100
+      tmpo             143          847,000     73 %         0
+      tmpx               1            4,048     50 %         0
+      tmpy               1              764      9 %         0
+      tmpz             200        1,340,380     82 %         3
+      traceDO2      12,649       56,622,360     55 %        41
+      tracelog           1              216      3 %         0
+      train              1               20      0 %         0
+      TransitTD          5           33,824     83 %         3
+      ts.DriverD       376        2,484,876     81 %        74
+      ts.DriverI       115          859,192     92 %        25
+      ts.FuelConsumptionNormD
+                         1            1,128     14 %         0
+      ts.FuelConsumptionNormI
+                         1              348      4 %         0
+      ts.KindOfActivityD
+                         1              248      3 %         0
+      ts.LocksmithD
+                         1            6,460     79 %         0
+      ts.LocksmithI
+                         1            8,052     99 %         0
+      ts.MechanismDriverD
+                         1            6,180     76 %         0
+      ts.MechanismDriverI
+                         1            5,304     65 %         0
+      ts.MechanismKindD
+                         1              196      2 %         0
+      ts.MechanismKindI
+                         1              240      3 %         0
+      ts.MechanismTypeD
+                         1            2,572     32 %         0
+      ts.MechanismTypeI
+                         1            1,876     23 %         0
+      ts.plan.FlotApproachingD
+                         1               76      1 %         0
+      ts.plan.FlotApproachingI
+                         1              152      2 %         0
+      ts.plan.ListCargoD
+                         1              720      9 %         0
+      ts.plan.ListCargoI
+                         1              392      5 %         0
+      ts.plan.NominationD
+                         1              464      6 %         0
+      ts.plan.NominationI
+                         1              372      5 %         0
+      ts.plan.ShipRegistra982D
+                         1              200      2 %         0
+      ts.plan.ShipRegistra982I
+                         1              248      3 %         0
+      ts.plan.SimpleSprD
+                         1               56      1 %         0
+directory: d:\database\a3\
+Page: 25                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      ts.RateD           1            5,952     73 %         0
+      ts.RateI           1            7,448     91 %         0
+      ts.RwTankTypeD
+                         1              312      4 %         0
+      ts.RwTankTypeI
+                         1              260      3 %         0
+      ts.Ship2CompanyD
+                         1            5,372     66 %         0
+      ts.Ship2CompanyI
+                         2            8,792     54 %         0
+      ts.ShipBayCellD
+                       109          791,896     89 %        92
+      ts.ShipBayCellI
+                       172        1,258,076     90 %        87
+      ts.ShipBayD        4           28,256     87 %         0
+      ts.ShipBayI        6           42,072     86 %         0
+      ts.ShipHoldD       1            3,320     41 %         0
+      ts.ShipHoldI       1            1,232     15 %         0
+      ts.ShippingLineD
+                         1              944     12 %         0
+      ts.ShippingLineI
+                         1            1,040     13 %         0
+      ts.ShipTypeD       1              724      9 %         0
+      ts.ShipTypeI       1            1,176     14 %         0
+      ts.TractorMarkD
+                         1            5,856     72 %         0
+      ts.TractorMarkI
+                         1            6,116     75 %         0
+      ts.TrailerD       30          217,952     89 %         8
+      ts.TrailerI       17          120,784     87 %         4
+      ts.TrailerMarkD
+                         1            6,556     80 %         0
+      ts.TrailerMarkI
+                         1            7,692     94 %         0
+      ts.TrainD         52          365,932     86 %         5
+      ts.TrainI         60          412,900     84 %         6
+      ts.UnitD       1,965       14,204,624     89 %       627
+      ts.UnitI       2,372       15,235,444     79 %       918
+      ts.visit.auto.Company2RateD
+                         1               36      0 %         0
+      ts.visit.auto.PostsD
+                       133          969,724     89 %        92
+      ts.visit.auto.PostsI
+                        25          183,288     90 %        21
+      ts.visit.AutoVisitsHistoryD
+                   170,757    1,235,826,508     89 %    19,618
+      ts.visit.AutoVisitsHistoryI
+                    24,297      176,663,720     89 %    14,046
+      ts.visit.Gu45ForFrontTripD
+                     1,276        8,812,668     85 %        98
+      ts.visit.Gu45ForFrontTripI
+                       703        4,789,424     83 %       378
+      ts.visit.MooringD
+                       115          826,404     88 %        24
+      ts.visit.MooringI
+                        77          511,780     81 %        27
+      ts.visit.op.AutoD
+                    67,876      425,845,428     77 %     5,949
+directory: d:\database\a3\
+Page: 26                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      ts.visit.op.AutoI
+                   317,652    1,930,932,916     74 %   113,262
+      ts.visit.op.EmergencyD
+                         1            1,892     23 %         0
+      ts.visit.op.EmergencyI
+                         1              724      9 %         0
+      ts.visit.ship.HandlingD
+                         1              796     10 %         0
+      ts.visit.ship.OperationD
+                         1               36      0 %         0
+      ts.visit.UnitD
+                    44,487      276,582,328     76 %     9,824
+      ts.visit.UnitI
+                   145,697      890,100,117     75 %    57,814
+      ts.visit.Wagon2FrontTripD
+                     2,627       20,006,924     93 %       513
+      ts.visit.Wagon2FrontTripI
+                     6,131       44,502,936     89 %     2,695
+      ts.visit.WagonBatchingD
+                         1            2,840     35 %         0
+      ts.visit.WagonBatchingI
+                         1              692      8 %         0
+      ts.WagonOwnerD
+                         1              204      2 %         0
+      ts.WagonTypeD
+                         1              532      7 %         0
+      ts.WagonTypeEtranD
+                         1            3,916     48 %         0
+      ts.WagonTypeEtranI
+                         1            4,996     61 %         0
+      ts.WagonTypeI
+                         1            1,064     13 %         0
+      tseta              1               24      0 %         0
+      ttemp             10           12,196     15 %         1
+      updateVisits       3           17,436     71 %         0
+      User.CubeAutoOpsD
+                     2,526       18,480,696     90 %       149
+      User.CubeAutoOpsI
+                     4,616       33,888,232     90 %     2,371
+      User.DimAutoCompanyD
+                         1            2,580     32 %         0
+      User.DimAutoCompanyI
+                         1            3,640     45 %         0
+      User.DimAutoD
+                        12           81,560     83 %         0
+      User.DimAutoI
+                        13           94,872     89 %         0
+      User.DimCustomerD
+                         1            2,732     33 %         0
+      User.DimCustomerI
+                         1            3,860     47 %         0
+      User.DimDateD
+                         1            7,464     91 %         0
+      User.DimDateI
+                         2            9,092     56 %         0
+      User.DimHourD
+                         1              312      4 %         0
+      User.DimHourI
+                         1              240      3 %         0
+directory: d:\database\a3\
+Page: 27                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.DimOpDirD
+                         1               72      1 %         0
+      User.DimOpDirI
+                         1               96      1 %         0
+      User.DimOpTypeD
+                         1              372      5 %         0
+      User.DimOpTypeI
+                         1              504      6 %         0
+      User.DimRateD
+                         1            2,284     28 %         0
+      User.DimRateI
+                         1            3,380     41 %         0
+      User.DimShortTypeD
+                         1              440      5 %         0
+      User.DimShortTypeI
+                         1              380      5 %         0
+      User.DimSlotD
+                         1              152      2 %         0
+      User.DimSlotI
+                         1              156      2 %         0
+      User.DimVisitD
+                       201        1,472,508     90 %         0
+      User.DimVisitI
+                       151        1,106,840     90 %         9
+      User.DimWarehouseD
+                         1              288      4 %         0
+      User.DimWarehouseI
+                         1              408      5 %         0
+      User.DockerCubeD
+                       104          754,664     89 %         3
+      User.DockerCubeI
+                       233        1,707,436     90 %       117
+      User.DockerDimCrewD
+                         1              416      5 %         0
+      User.DockerDimCrewI
+                         1              312      4 %         0
+      User.DockerDimDateD
+                         1              668      8 %         0
+      User.DockerDimDateI
+                         1              860     11 %         0
+      User.DockerDimPersonD
+                         4           27,624     85 %         0
+      User.DockerDimPersonI
+                         6           43,436     89 %         0
+      User.DockerDimTabNumberD
+                         2           11,996     73 %         0
+      User.DockerDimTabNumberI
+                         2            8,716     53 %         0
+      User.DockerDimTerminalD
+                         1              124      2 %         0
+      User.DockerDimTerminalI
+                         1              188      2 %         0
+      User.DockerDimWorkOrderD
+                         1            6,964     85 %         0
+      User.DockerDimWorkOrderI
+                         1            4,904     60 %         0
+      User.ForwAddedCompanyD
+                         1            4,604     56 %         0
+directory: d:\database\a3\
+Page: 28                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.ForwAddedCompanyI
+                         1            3,984     49 %         0
+      User.ForwCubeD
+                       283        2,062,612     89 %         4
+      User.ForwCubeI
+                       630        3,819,956     74 %         0
+      User.ForwDimBerthD
+                         1              200      2 %         0
+      User.ForwDimBerthI
+                         1              164      2 %         0
+      User.ForwDimCategoryD
+                         1              356      4 %         0
+      User.ForwDimCategoryI
+                         1              428      5 %         0
+      User.ForwDimDateD
+                         1              648      8 %         0
+      User.ForwDimDateI
+                         1              836     10 %         0
+      User.ForwDimDescriptionD
+                        77          562,496     89 %         0
+      User.ForwDimDescriptionI
+                       101          576,892     70 %         0
+      User.ForwDimDocumentD
+                        46          334,408     89 %         0
+      User.ForwDimDocumentI
+                        50          269,480     66 %         0
+      User.ForwDimForwarderD
+                         1            4,548     56 %         0
+      User.ForwDimForwarderI
+                         1            6,524     80 %         0
+      User.ForwDimIdentifierD
+                        46          337,196     90 %         0
+      User.ForwDimIdentifierI
+                        56          311,724     68 %         0
+      User.ForwDimReceiverD
+                         7           45,396     79 %         0
+      User.ForwDimReceiverI
+                        12           62,820     64 %         0
+      User.ForwDimSenderD
+                         2           13,036     80 %         0
+      User.ForwDimSenderI
+                         4           18,052     55 %         0
+      User.ForwDimStevedoreD
+                         1              188      2 %         0
+      User.ForwDimStevedoreI
+                         1              268      3 %         0
+      User.ForwDimTransportTypeD
+                         1              264      3 %         0
+      User.ForwDimTransportTypeI
+                         1              340      4 %         0
+      User.ForwDimTsUnitD
+                        45          328,868     90 %         0
+      User.ForwDimTsUnitI
+                        41          242,312     72 %         0
+      User.GeneralCarg3C66D
+                         1               80      1 %         0
+      User.GeneralCarg3C66I
+                         1              100      1 %         0
+directory: d:\database\a3\
+Page: 29                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.GeneralCarg78DDD
+                         1              188      2 %         0
+      User.GeneralCarg78DDI
+                         1              240      3 %         0
+      User.GeneralCargCABDD
+                       840        6,160,088     90 %       248
+      User.GeneralCargCABDI
+                       491        2,840,848     71 %         5
+      User.GeneralCargE1F4D
+                         1              328      4 %         0
+      User.GeneralCargE1F4I
+                         1              444      5 %         0
+      User.GeneralCargoCubeD
+                        34          246,132     89 %         0
+      User.GeneralCargoCubeI
+                        79          463,892     72 %         0
+      User.GeneralCargoDimDateD
+                         2            8,324     51 %         0
+      User.GeneralCargoDimDateI
+                         2           10,100     62 %         0
+      User.GeneralCargoDimDirectionD
+                         1              128      2 %         0
+      User.GeneralCargoDimDirectionI
+                         1              144      2 %         0
+      User.GeneralCargoDimForwarderD
+                         1            1,820     22 %         0
+      User.GeneralCargoDimForwarderI
+                         1            2,636     32 %         0
+      User.GeneralCargoDimTypeD
+                         1            2,620     32 %         0
+      User.GeneralCargoDimTypeI
+                         1            3,772     46 %         0
+      User.GeneralCargoDimWarehouseD
+                         1              248      3 %         0
+      User.GeneralCargoDimWarehouseI
+                         1              344      4 %         0
+      User.GoodsCubeD
+                       192        1,396,680     89 %         6
+      User.GoodsCubeI
+                       489        2,886,588     72 %         0
+      User.GoodsDimCarrierD
+                         1              644      8 %         0
+      User.GoodsDimCarrierI
+                         1              956     12 %         0
+      User.GoodsDimCountryFromD
+                         1              140      2 %         0
+      User.GoodsDimCountryFromI
+                         1              200      2 %         0
+      User.GoodsDimCountryToD
+                         1              108      1 %         0
+      User.GoodsDimCountryToI
+                         1              152      2 %         0
+      User.GoodsDimDateD
+                         1              636      8 %         0
+      User.GoodsDimDateI
+                         1              796     10 %         0
+      User.GoodsDimDirectionD
+                         1               72      1 %         0
+directory: d:\database\a3\
+Page: 30                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.GoodsDimDirectionI
+                         1              116      1 %         0
+      User.GoodsDimForwarderD
+                         1              700      9 %         0
+      User.GoodsDimForwarderI
+                         1            1,000     12 %         0
+      User.GoodsDimIdentifierD
+                        10           74,020     91 %         0
+      User.GoodsDimIdentifierI
+                        12           65,092     66 %         0
+      User.GoodsDimLocationD
+                         1            3,372     41 %         0
+      User.GoodsDimLocationI
+                         1            4,560     56 %         0
+      User.GoodsDimSignD
+                         1              176      2 %         0
+      User.GoodsDimSignI
+                         1              212      3 %         0
+      User.GoodsDimTopTypeD
+                         1              436      5 %         0
+      User.GoodsDimTopTypeI
+                         1              680      8 %         0
+      User.GoodsDimTraD41CD
+                        18          131,856     90 %         7
+      User.GoodsDimTraD41CI
+                        12           88,340     90 %         2
+      User.GoodsDimTransportD
+                        39          281,016     88 %         0
+      User.GoodsDimTransportI
+                        38          242,072     78 %         0
+      User.GoodsDimTransportTypeD
+                         1               80      1 %         0
+      User.GoodsDimTransportTypeI
+                         1              112      1 %         0
+      User.GoodsDimTypeD
+                         1            3,688     45 %         0
+      User.GoodsDimTypeI
+                         1            5,312     65 %         0
+      User.GoodsDimTypePartOfD
+                         1            1,392     17 %         0
+      User.GoodsDimTypePartOfI
+                         1            2,064     25 %         0
+      User.GoodsDimWarehouseD
+                         1              220      3 %         0
+      User.GoodsDimWarehouseI
+                         1              328      4 %         0
+      User.ISUnloadBerthDD
+                         1               44      1 %         0
+      User.ISUnloadBerthDI
+                         1               52      1 %         0
+      User.ISUnloadBOLDD
+                        53          388,688     90 %        39
+      User.ISUnloadBOLDI
+                        55          328,748     73 %        30
+      User.ISUnloadCargoDD
+                         1               52      1 %         0
+      User.ISUnloadCargoDI
+                         1               72      1 %         0
+directory: d:\database\a3\
+Page: 31                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.ISUnloadCargoIdDD
+                         1               48      1 %         0
+      User.ISUnloadCargoIdDI
+                         1               56      1 %         0
+      User.ISUnloadCategoryDD
+                         1               56      1 %         0
+      User.ISUnloadCategoryDI
+                         1               76      1 %         0
+      User.ISUnloadExclStevD
+                         1              228      3 %         0
+      User.ISUnloadExclStevI
+                         1              192      2 %         0
+      User.ISUnloadInputDocDD
+                         1               52      1 %         0
+      User.ISUnloadInputDocDI
+                         1               64      1 %         0
+      User.ISUnloadPeriodDD
+                         1               52      1 %         0
+      User.ISUnloadPeriodDI
+                         1               68      1 %         0
+      User.ISUnloadPlaceDD
+                         1               48      1 %         0
+      User.ISUnloadPlaceDI
+                         1               56      1 %         0
+      User.ISUnloadSectionDD
+                         1               60      1 %         0
+      User.ISUnloadSectionDI
+                         1               80      1 %         0
+      User.ISUnloadStevDD
+                         1               56      1 %         0
+      User.ISUnloadStevDI
+                         1               76      1 %         0
+      User.ISUnloadTsVisitDD
+                         1               48      1 %         0
+      User.ISUnloadTsVisitDI
+                         1               56      1 %         0
+      User.ISUnloadVesselDD
+                         2           13,416     82 %         1
+      User.ISUnloadVesselDI
+                         2           12,880     79 %         1
+      User.ISUnloadWeightDD
+                         1               44      1 %         0
+      User.ISUnloadWeightDI
+                         1               56      1 %         0
+      User.KdCubeContainersD
+                     2,693       19,668,768     89 %        98
+      User.KdCubeContainersI
+                     6,679       40,099,828     74 %         0
+      User.KdDimCarrierD
+                         1            2,416     30 %         0
+      User.KdDimCarrierI
+                         1            3,388     41 %         0
+      User.KdDimContainerFtD
+                         1              136      2 %         0
+      User.KdDimContainerFtI
+                         1              128      2 %         0
+      User.KdDimContainerLoadedD
+                         1               76      1 %         0
+directory: d:\database\a3\
+Page: 32                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.KdDimContainerLoadedI
+                         1               96      1 %         0
+      User.KdDimContainerNumberD
+                       234        1,715,172     90 %         0
+      User.KdDimContainerNumberI
+                       282        1,618,036     70 %         0
+      User.KdDimContainerPrefixD
+                         2            8,280     51 %         0
+      User.KdDimContainerPrefixI
+                         2            8,340     51 %         0
+      User.KdDimContainerTypeD
+                         1              300      4 %         0
+      User.KdDimContainerTypeI
+                         1              320      4 %         0
+      User.KdDimCountryFromD
+                         1              784     10 %         0
+      User.KdDimCountryFromI
+                         1              976     12 %         0
+      User.KdDimCountryToD
+                         1              168      2 %         0
+      User.KdDimCountryToI
+                         1              216      3 %         0
+      User.KdDimDateD
+                         1            5,484     67 %         0
+      User.KdDimDateI
+                         1            6,656     82 %         0
+      User.KdDimDirectionD
+                         1               72      1 %         0
+      User.KdDimDirectionI
+                         1               96      1 %         0
+      User.KdDimForwarderD
+                         8           52,488     80 %         0
+      User.KdDimForwarderI
+                         7           39,712     69 %         0
+      User.KdDimLineInD
+                         1              396      5 %         0
+      User.KdDimLineInI
+                         1              544      7 %         0
+      User.KdDimLineOutD
+                         1              392      5 %         0
+      User.KdDimLineOutI
+                         1              544      7 %         0
+      User.KdDimLocationD
+                         1            6,236     76 %         0
+      User.KdDimLocationI
+                         2            8,500     52 %         0
+      User.KdDimTransportationTypeD
+                         1            7,976     98 %         0
+      User.KdDimTransportationTypeI
+                         1            5,472     67 %         0
+      User.KdDimTransportTypeD
+                         1               80      1 %         0
+      User.KdDimTransportTypeI
+                         1               92      1 %         0
+      User.KdDimVesselD
+                       177        1,290,024     89 %         0
+      User.KdDimVesselI
+                       183        1,081,976     72 %         0
+directory: d:\database\a3\
+Page: 33                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.KdDimWarehouseD
+                         1              188      2 %         0
+      User.KdDimWarehouseI
+                         1              268      3 %         0
+      User.PRRCubeD
+                        73          529,296     89 %         4
+      User.PRRCubeI
+                       150        1,098,336     90 %        88
+      User.PRRDimContainerLoadD
+                         1               76      1 %         0
+      User.PRRDimContainerLoadI
+                         1               96      1 %         0
+      User.PRRDimContainerSizeD
+                         1              104      1 %         0
+      User.PRRDimContainerSizeI
+                         1              112      1 %         0
+      User.PRRDimDateD
+                         1              348      4 %         0
+      User.PRRDimDateI
+                         1              480      6 %         0
+      User.PRRDimDirectionD
+                         1               72      1 %         0
+      User.PRRDimDirectionI
+                         1               92      1 %         0
+      User.PRRDimPortD
+                         1            1,092     13 %         0
+      User.PRRDimPortI
+                         1            1,452     18 %         0
+      User.PRRDimStevedoreD
+                         1              120      1 %         0
+      User.PRRDimStevedoreI
+                         1              184      2 %         0
+      User.PRRDimTransportTypeD
+                         1              160      2 %         0
+      User.PRRDimTransportTypeI
+                         1              212      3 %         0
+      User.PRRDimVesselCallD
+                         1              780     10 %         0
+      User.PRRDimVesselCallI
+                         1              940     12 %         0
+      User.StoreCubeD
+                        73          532,912     89 %         1
+      User.StoreCubeI
+                       198        1,164,368     72 %         0
+      User.StoreDimContainerFtD
+                         1              100      1 %         0
+      User.StoreDimContainerFtI
+                         1              112      1 %         0
+      User.StoreDimContainerLoadedD
+                         1               80      1 %         0
+      User.StoreDimContainerLoadedI
+                         1              100      1 %         0
+      User.StoreDimContainerNumberD
+                        21          154,744     90 %         0
+      User.StoreDimContainerNumberI
+                        24          144,792     74 %         0
+      User.StoreDimContainerTypeD
+                         1              176      2 %         0
+directory: d:\database\a3\
+Page: 34                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.StoreDimContainerTypeI
+                         1              228      3 %         0
+      User.StoreDimDateD
+                         1            3,208     39 %         0
+      User.StoreDimDateI
+                         1            3,920     48 %         0
+      User.StoreDimDirectionD
+                         1              116      1 %         0
+      User.StoreDimDirectionI
+                         1              136      2 %         0
+      User.StoreDimForTsVisitD
+                         1              480      6 %         0
+      User.StoreDimForTsVisitI
+                         1              556      7 %         0
+      User.StoreDimForwarderD
+                         1            4,188     51 %         0
+      User.StoreDimForwarderI
+                         1            5,956     73 %         0
+      User.StoreDimPortOfDischargeD
+                         1              272      3 %         0
+      User.StoreDimPortOfDischargeI
+                         1              364      4 %         0
+      User.StoreDimStationD
+                         1              116      1 %         0
+      User.StoreDimStationI
+                         1              152      2 %         0
+      User.StoreDimTra21FDD
+                         1              244      3 %         0
+      User.StoreDimTra21FDI
+                         1              312      4 %         0
+      User.StoreDimTraDCBBD
+                         1               80      1 %         0
+      User.StoreDimTraDCBBI
+                         1              100      1 %         0
+      User.StoreDimTransportTypeToD
+                         1               80      1 %         0
+      User.StoreDimTransportTypeToI
+                         1               92      1 %         0
+      User.StoreDimWarehouseD
+                         1              156      2 %         0
+      User.StoreDimWarehouseI
+                         1              224      3 %         0
+      User.WhCapacityCubeD
+                       442        3,234,276     90 %         9
+      User.WhCapacityCubeI
+                       817        4,960,632     74 %         0
+      User.WhCapacityDimCategoryD
+                         1              252      3 %         0
+      User.WhCapacityDimCategoryI
+                         1              324      4 %         0
+      User.WhCapacityDimDateD
+                         1            5,504     67 %         0
+      User.WhCapacityDimDateI
+                         1            7,076     87 %         0
+      User.WhCapacityDimNumWeekD
+                         1              216      3 %         0
+      User.WhCapacityDimNumWeekI
+                         1              168      2 %         0
+directory: d:\database\a3\
+Page: 35                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      User.WhCapacityDimPlaceD
+                         1            3,012     37 %         0
+      User.WhCapacityDimPlaceI
+                         1            2,464     30 %         0
+      User.WhCapacityDimSenderD
+                         4           23,048     71 %         0
+      User.WhCapacityDimSenderI
+                         5           31,968     78 %         0
+      User.WhCapacityDimStevD
+                         1              300      4 %         0
+      User.WhCapacityDimStevI
+                         1              400      5 %         0
+      uTopCargo        173        1,001,712     71 %         2
+      uu                 1              100      1 %         0
+      VCTCALC           68          390,836     70 %         0
+      VCTInvoices      405        2,470,588     75 %         1
+      wag               15           98,476     80 %         0
+      wagg           6,358       35,668,556     69 %         0
+      WeightingNotification
+                        64          379,171     73 %         2
+      wh.CellD           1              220      3 %         0
+      wh.CellI           1              224      3 %         0
+      wh.graph.PlaceD
+                         2           13,060     80 %         1
+      wh.graph.PlaceI
+                         1            7,728     95 %         0
+      wh.graph.WarehouseD
+                         1               84      1 %         0
+      wh.graph.WarehouseI
+                         1               64      1 %         0
+      wh.OperationD
+                         1              224      3 %         0
+      wh.OperationI
+                         1              472      6 %         0
+      wh.PlaceCapacityD
+                         1            2,584     32 %         0
+      wh.PlaceCapacityI
+                         1            1,544     19 %         0
+      wh.PlaceD          5           29,624     73 %         0
+      wh.PlaceI          7           42,736     75 %         0
+      wh.TankD           1              108      1 %         0
+      wh.TerminalCellD
+                       733        5,207,592     87 %       426
+      wh.TerminalCellI
+                     1,641       12,046,056     90 %     1,033
+      wh.TimeSlotD      82          593,004     89 %        27
+      wh.TimeSlotI      56          405,668     89 %        47
+      wh2sea             1               48      1 %         0
+      wl                 1              328      4 %         0
+      wsinfo             1            1,560     19 %         0
+      wsinfoAddRelease
+                     1,515       10,399,920     84 %        64
+      ww                 1              196      2 %         0
+      www                8           58,460     90 %         0
+      xmlproc            1              128      2 %         0
+      xmlver             1              564      7 %         0
+      ZEN.BackgroundStatus
+                         1              516      6 %         0
+directory: d:\database\a3\
+Page: 36                          GLOBAL SIZE                                                                            06 Oct 2016
+                                                                                                                            10:38 AM
+      Global        Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+      zen.flex.TableColumnD
+                       814        5,085,488     77 %       187
+      zen.flex.TableColumnI
+                       453        3,049,312     82 %        62
+      zen.flex.TablePaneD
+                        73          469,352     79 %        10
+      zen.flex.TablePaneI
+                        33          216,920     81 %         5
+
+
+      TOTAL         Blocks       Bytes Used  Packing   Contig.
+      --------    --------  ---------------  -------   -------
+                  11,266,050 66,582,266,693     72 %   3,255,617

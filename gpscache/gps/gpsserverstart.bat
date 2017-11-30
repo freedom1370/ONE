@@ -1,0 +1,1 @@
+C:\InterSystems\Cache1\bin\cache.exe -s C:\InterSystems\Cache1\mgr -U GPS <%CD%\command.cos
